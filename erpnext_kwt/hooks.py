@@ -5,7 +5,7 @@ app_title = "ERPNext KWT"
 app_publisher = "Wasaq Group Co"
 app_description = "Holding Regional Customizations for Kuwait."
 app_email = "info@wsqgroup.com"
-app_license = "CC0"
+app_license = "CC0 1.0 Universal"
 
 # Includes in <head>
 # ------------------
