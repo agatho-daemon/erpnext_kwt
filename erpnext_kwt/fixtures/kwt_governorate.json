@@ -1,0 +1,50 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "AH",
+  "governorate_name": "Ahmadi",
+  "modified": "2023-09-14 10:12:55.681278",
+  "name": "GOV-01"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "AS",
+  "governorate_name": "Al Asimah",
+  "modified": "2023-09-14 10:13:25.039195",
+  "name": "GOV-02"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "FR",
+  "governorate_name": "Farwaniya",
+  "modified": "2023-09-14 10:13:36.228893",
+  "name": "GOV-03"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "HW",
+  "governorate_name": "Hawalli",
+  "modified": "2023-09-14 10:13:48.901984",
+  "name": "GOV-04"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "JH",
+  "governorate_name": "Jahra",
+  "modified": "2023-09-14 10:14:05.513153",
+  "name": "GOV-05"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "MK",
+  "governorate_name": "Mubarak Al-Kabeer",
+  "modified": "2023-09-14 10:14:15.620193",
+  "name": "GOV-06"
+ }
+]

@@ -10,6 +10,10 @@ app_license = "CC0"
 # Includes in <head>
 # ------------------
 
+# fixtures
+fixtures = ["KWT Governorate", "KWT District"]
+
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_kwt/css/erpnext_kwt.css"
 # app_include_js = "/assets/erpnext_kwt/js/erpnext_kwt.js"
