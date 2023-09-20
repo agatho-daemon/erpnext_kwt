@@ -10,8 +10,32 @@ app_license = "CC0 1.0 Universal"
 # Includes in <head>
 # ------------------
 
+# Required apps
+required_apps = ["erpnext"]
+
+
 # fixtures
-fixtures = ["KWT Governorate", "KWT District"]
+fixtures = [
+    "KWT Governorate",
+    "KWT District",
+    {"dt": "Custom Field", "filters": [
+        [
+            "name",
+            "in",
+            {
+                "Address-custom_block",
+                "Address-custom_street",
+                "Address-custom_lane",
+                "Address-custom_building",
+                "Address-custom_building_name",
+                "Address-custom_parcel",
+                "Address-custom_floor",
+                "Address-custom_flat",
+                "Address-custom_paci",
+            }
+        ]
+    ]},
+]
 
 
 # include js, css files in header of desk.html
@@ -34,6 +58,9 @@ fixtures = ["KWT Governorate", "KWT District"]
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Address": "public/js/kwt_address.js",
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
