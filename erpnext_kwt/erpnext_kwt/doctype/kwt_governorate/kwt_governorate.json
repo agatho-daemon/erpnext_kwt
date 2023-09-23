@@ -1,7 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:GOV-{##}",
+ "autoname": "field:governorate_name",
  "creation": "2023-09-18 07:15:38.388428",
  "default_view": "List",
  "doctype": "DocType",
@@ -17,7 +17,8 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Governorate Name",
-   "reqd": 1
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "governorate_abbreviation",
@@ -29,12 +30,12 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-09-18 07:16:39.813843",
+ "modified": "2023-09-23 16:09:43.306961",
  "modified_by": "Administrator",
  "module": "ERPNext KWT",
  "name": "KWT Governorate",
  "name_case": "UPPER CASE",
- "naming_rule": "Expression",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -50,9 +51,7 @@
    "write": 1
   }
  ],
- "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "title_field": "governorate_name"
+ "states": []
 }
