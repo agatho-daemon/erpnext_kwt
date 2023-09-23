@@ -3,9 +3,11 @@ from . import __version__ as app_version
 app_name = "erpnext_kwt"
 app_title = "ERPNext KWT"
 app_publisher = "Wasaq Group Co"
-app_description = "Holding Regional Customizations for Kuwait."
+app_description = "Holding Country Customizations for Kuwait."
+app_color = "#e74c3c"
 app_email = "info@wsqgroup.com"
 app_license = "CC0 1.0 Universal"
+source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 
 # Includes in <head>
 # ------------------
@@ -59,7 +61,7 @@ fixtures = [
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 doctype_js = {
-    "Address": "public/js/kwt_address.js",
+    "Address": "public/js/kwt_address.js"
 }
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
