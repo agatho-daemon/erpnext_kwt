@@ -34,12 +34,6 @@ fixtures = [
                 "Address-custom_floor",
                 "Address-custom_flat",
                 "Address-custom_paci",
-                "Address-custom_defaults_section_up",
-                "Address-custom_defaults_column_1",
-                "Address-custom_defaults_column_2",
-                "Address-custom_column_break_1",
-                "Address-custom_column_break_2",
-                "Address-custom_defaults_contact_information",
             }
         ]
     ]},
