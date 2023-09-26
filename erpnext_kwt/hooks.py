@@ -3,15 +3,47 @@ from . import __version__ as app_version
 app_name = "erpnext_kwt"
 app_title = "ERPNext KWT"
 app_publisher = "Wasaq Group Co"
-app_description = "Holding Regional Customizations for Kuwait."
+app_description = "Holding Country Customizations for Kuwait."
+app_color = "#e74c3c"
 app_email = "info@wsqgroup.com"
 app_license = "CC0 1.0 Universal"
+source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 
 # Includes in <head>
 # ------------------
 
+# Required apps
+required_apps = ["erpnext"]
+
+
 # fixtures
-fixtures = ["KWT Governorate", "KWT District"]
+fixtures = [
+    "KWT Governorate",
+    "KWT District",
+    {"dt": "Custom Field", "filters": [
+        [
+            "name",
+            "in",
+            {
+                "Address-custom_block",
+                "Address-custom_street",
+                "Address-custom_lane",
+                "Address-custom_building",
+                "Address-custom_building_name",
+                "Address-custom_parcel",
+                "Address-custom_floor",
+                "Address-custom_flat",
+                "Address-custom_paci",
+                "custom_defaults_section_up",
+                "custom_defaults_column_1",
+                "custom_defaults_column_2",
+                "custom_column_break_1",
+                "custom_column_break_2",
+                "custom_defaults_contact_information",
+            }
+        ]
+    ]},
+]
 
 
 # include js, css files in header of desk.html
@@ -34,6 +66,9 @@ fixtures = ["KWT Governorate", "KWT District"]
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
+doctype_js = {
+    "Address": "public/js/kwt_address.js"
+}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
