@@ -3,7 +3,7 @@ from . import __version__ as app_version
 app_name = "erpnext_kwt"
 app_title = "ERPNext KWT"
 app_publisher = "Wasaq Group Co"
-app_description = "Holding Country Customizations for Kuwait."
+app_description = "Kuwait Country Customizations."
 app_color = "#e74c3c"
 app_email = "info@wsqgroup.com"
 app_license = "CC0 1.0 Universal"
@@ -29,17 +29,11 @@ fixtures = [
                 "Address-custom_street",
                 "Address-custom_lane",
                 "Address-custom_building",
-                "Address-custom_building_name",
                 "Address-custom_parcel",
+                "Address-custom_building_name",
                 "Address-custom_floor",
                 "Address-custom_flat",
                 "Address-custom_paci",
-                "Address-custom_defaults_section_up",
-                "Address-custom_defaults_column_1",
-                "Address-custom_defaults_column_2",
-                "Address-custom_column_break_1",
-                "Address-custom_column_break_2",
-                "Address-custom_defaults_contact_information",
             }
         ]
     ]},
