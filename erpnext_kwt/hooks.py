@@ -34,6 +34,9 @@ fixtures = [
                 "Address-custom_lane",
                 "Address-custom_building_name",
                 "Address-custom_paci",
+                "Address-custom_kuwait_address_details",
+                "Address-custom_kwt_address_cb1",
+                "Address-custom_kwt_address_cb2"
             }
         ]
     ]},
