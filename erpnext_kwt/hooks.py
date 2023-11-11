@@ -25,6 +25,10 @@ fixtures = [
             "name",
             "in",
             {
+                "Address-custom_district",
+                "Address-custom_district_section",
+                "Address-custom_district_section_cb1",
+                "Address-custom_district_section_cb2",
                 "Address-custom_block",
                 "Address-custom_building",
                 "Address-custom_floor",
