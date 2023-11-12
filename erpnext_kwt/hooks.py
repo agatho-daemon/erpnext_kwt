@@ -25,6 +25,10 @@ fixtures = [
             "name",
             "in",
             {
+                "Address-custom_district",
+                "Address-custom_district_section",
+                "Address-custom_district_section_cb1",
+                "Address-custom_district_section_cb2",
                 "Address-custom_block",
                 "Address-custom_building",
                 "Address-custom_floor",
@@ -35,6 +39,7 @@ fixtures = [
                 "Address-custom_building_name",
                 "Address-custom_paci",
                 "Address-custom_kuwait_address_details",
+                "Address-custom_kwt_address_cb0",
                 "Address-custom_kwt_address_cb1",
                 "Address-custom_kwt_address_cb2"
             }
