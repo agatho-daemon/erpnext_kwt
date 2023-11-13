@@ -1,24 +1,27 @@
 frappe.ui.form.on('Address', {
     refresh: function(frm) {
+        // Hide unnecessary fields
+        // 'city' field is used to store the District in the background.
+        frm.set_df_property("city", "hidden", 1);
         frm.set_df_property("county", "hidden", 1);
         frm.set_df_property("pincode", "hidden", 1);
-        frm.set_df_property("state", "hidden", 1);
-        // frm.set_df_property("address_line1", "hidden", 1);
-        frm.set_df_property("address_line2", "hidden", 1);
-        frm.set_df_property("city", "hidden", 1);
-        frm.set_value("country", "Kuwait");
-
-        // frm.fields_dict['city'].set_label('District');
-        // frm..fields_dict['city'].fieldtype = "Link";
-        // if (frm.doc.country == "Kuwait") {
-        //     frm.set_value("city", "Kuwait City");
-        //     // console.log("Right call");
-        // }
+        
+        // Change label of 'State' to 'Territory/Governorate'
+        frm.set_df_property("state", "label", "Governorate");
     },
 
     custom_district: function(frm) {
+        // Set the City (hidden field) from the District
         let district_value = frm.doc.custom_district;
         frm.set_value("city", district_value);
+
+        // Fetch the Territory/Governorate from the District
+        frappe.db.get_value("KWT District", frm.doc.custom_district, "governorate")
+        .then (r => {
+            if (r.message) {
+                frm.set_value("state", r.message.governorate);
+            }
+        });
     },
 
 
