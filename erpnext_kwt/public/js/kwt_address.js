@@ -4,10 +4,11 @@ frappe.ui.form.on('Address', {
         // 'city' field is used to store the District in the background.
         frm.set_df_property("city", "hidden", 1);
         frm.set_df_property("county", "hidden", 1);
-        frm.set_df_property("pincode", "hidden", 1);
+        // frm.set_df_property("pincode", "hidden", 1);
         
         // Change label of 'State' to 'Territory/Governorate'
         frm.set_df_property("state", "label", "Governorate");
+        frm.set_df_property("pincode", "label", "PACI");
     },
 
     custom_district: function(frm) {
