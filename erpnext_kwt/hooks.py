@@ -26,22 +26,8 @@ fixtures = [
             "in",
             {
                 "Address-custom_district",
-                "Address-custom_district_section",
-                "Address-custom_district_section_cb1",
-                "Address-custom_district_section_cb2",
-                "Address-custom_block",
-                "Address-custom_building",
-                "Address-custom_floor",
-                "Address-custom_street",
-                "Address-custom_parcel",
-                "Address-custom_flat",
-                "Address-custom_lane",
-                "Address-custom_building_name",
-                "Address-custom_paci",
-                "Address-custom_kuwait_address_details",
-                "Address-custom_kwt_address_cb0",
-                "Address-custom_kwt_address_cb1",
-                "Address-custom_kwt_address_cb2"
+                "Address-custom_address_line_3",
+                "Address-custom_paci"
             }
         ]
     ]},
