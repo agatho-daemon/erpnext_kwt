@@ -26,8 +26,7 @@ fixtures = [
             "in",
             {
                 "Address-custom_district",
-                "Address-custom_address_line_3",
-                "Address-custom_paci"
+                "Address-custom_address_line_3"
             }
         ]
     ]},
