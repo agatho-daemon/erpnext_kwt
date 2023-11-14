@@ -1,24 +1,40 @@
+// Description: Custom script for Address doctype
+// Author: WSQG
+// Version: 0.0.1
+
+// For a Kuwait address, we need to:
+// 1. Use a custom_district field linked to the KWT District doctype
+// 2. Hide the City and County fields, and set the City field from the District field
+// 3. Change the labels of State and Pincode fields to Territory/Governorate and PACI
+// 4. Fetch the Territory/Governorate field value from the District doctype
+
+// KWT address settings
+function set_kwt_address(frm) {
+    frm.set_df_property("custom_district", "hidden", 0);
+    frm.set_df_property("city", "hidden", 1);
+    frm.set_df_property("county", "hidden", 1);
+    // Change labels of 'state' and 'pincode' fields
+    frm.set_df_property("state", "label", "Governorate");
+    frm.set_df_property("pincode", "label", "PACI");
+}
+
+// Reset address settings to default
+function reset_address(frm) {
+    frm.set_df_property("custom_district", "hidden", 1);
+    frm.set_df_property("city", "hidden", 0);
+    frm.set_df_property("county", "hidden", 0);
+    // Reset labels of 'state' and 'pincode' fields to default
+    frm.set_df_property("state", "label", "State/Province");
+    frm.set_df_property("pincode", "label", "Postal Code");
+
+}
+
 frappe.ui.form.on('Address', {
     country: function(frm) {
-        // Hide unnecessary fields for KWT
-        // 'city' field is used to store the District in the background.
         if (frm.doc.country == "Kuwait") {
-            // city is hidden but used to store the District
-            frm.set_df_property("custom_district", "hidden", 0);
-            frm.set_df_property("city", "hidden", 1);
-            frm.set_df_property("county", "hidden", 1);
-            // Change labels of 'state' and 'pincode' fields
-            frm.set_df_property("state", "label", "Governorate");
-            frm.set_df_property("pincode", "label", "PACI");
+            set_kwt_address(frm);
         } else {
-            frm.set_df_property("city", "hidden", 0);
-            frm.set_df_property("county", "hidden", 0);
-            // Reset labels of 'state' and 'pincode' fields to default
-            frm.set_df_property("state", "label", "State/Province");
-            frm.set_df_property("pincode", "label", "Postal Code");
-            // Hide the custom_district field
-            frm.set_df_property("custom_district", "hidden", 1);
-            // frm.reload_doc();
+            reset_address(frm);
         }
     },
 
