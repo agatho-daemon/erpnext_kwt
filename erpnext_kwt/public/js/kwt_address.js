@@ -45,9 +45,9 @@ frappe.ui.form.on('Address', {
 
         // Fetch the Territory/Governorate from the District
         frappe.db.get_value("KWT District", frm.doc.custom_district, "governorate")
-        .then (r => {
-            if (r.message) {
-                frm.set_value("state", r.message.governorate);
+        .then (record => {
+            if (record.message) {
+                frm.set_value("state", record.message.governorate);
             }
         });
     },
