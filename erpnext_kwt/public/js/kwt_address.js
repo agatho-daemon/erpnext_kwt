@@ -8,33 +8,40 @@
 // 3. Change the labels of State and Pincode fields to Territory/Governorate and PACI
 // 4. Fetch the Territory/Governorate field value from the District doctype
 
-// KWT address settings
-function set_kwt_address(frm) {
-    frm.set_df_property("custom_district", "hidden", 0);
-    frm.set_df_property("city", "hidden", 1);
-    frm.set_df_property("county", "hidden", 1);
-    // Change labels of 'state' and 'pincode' fields
-    frm.set_df_property("state", "label", "Governorate");
-    frm.set_df_property("pincode", "label", "PACI");
-}
-
-// Reset address settings to default
-function reset_address(frm) {
-    frm.set_df_property("custom_district", "hidden", 1);
-    frm.set_df_property("city", "hidden", 0);
-    frm.set_df_property("county", "hidden", 0);
-    // Reset labels of 'state' and 'pincode' fields to default
-    frm.set_df_property("state", "label", "State/Province");
-    frm.set_df_property("pincode", "label", "Postal Code");
-
-}
 
 frappe.ui.form.on('Address', {
+    setup: function(frm) {
+
+        // KWT address settings
+        frm.set_kwt_address = function() {
+            // Required fields
+            frm.set_df_property("custom_district", "hidden", 0);
+            // Hidden fields (note 'city' will be set from 'custom_district')
+            frm.set_df_property("city", "hidden", 1);
+            frm.set_df_property("county", "hidden", 1);
+            // Fields that need to be renamed
+            frm.set_df_property("state", "label", "Governorate");
+            frm.set_df_property("pincode", "label", "PACI");
+        }
+
+        // Reset address settings to default
+        frm.reset_address = function() {
+            // Hidden fields
+            frm.set_df_property("custom_district", "hidden", 1);
+            // Default fields
+            frm.set_df_property("city", "hidden", 0);
+            frm.set_df_property("county", "hidden", 0);
+            // Reset fields to their default labels
+            frm.set_df_property("state", "label", "State/Province");
+            frm.set_df_property("pincode", "label", "Postal Code");
+        }
+    },
+
     country: function(frm) {
         if (frm.doc.country == "Kuwait") {
-            set_kwt_address(frm);
+            frm.set_kwt_address();
         } else {
-            reset_address(frm);
+            frm.reset_address();
         }
     },
 
@@ -51,6 +58,5 @@ frappe.ui.form.on('Address', {
             }
         });
     },
-
 
 })
