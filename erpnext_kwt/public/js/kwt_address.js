@@ -1,14 +1,25 @@
 frappe.ui.form.on('Address', {
-    refresh: function(frm) {
-        // Hide unnecessary fields
+    country: function(frm) {
+        // Hide unnecessary fields for KWT
         // 'city' field is used to store the District in the background.
-        frm.set_df_property("city", "hidden", 1);
-        frm.set_df_property("county", "hidden", 1);
-        // frm.set_df_property("pincode", "hidden", 1);
-        
-        // Change label of 'State' to 'Territory/Governorate'
-        frm.set_df_property("state", "label", "Governorate");
-        frm.set_df_property("pincode", "label", "PACI");
+        if (frm.doc.country == "Kuwait") {
+            // city is hidden but used to store the District
+            frm.set_df_property("custom_district", "hidden", 0);
+            frm.set_df_property("city", "hidden", 1);
+            frm.set_df_property("county", "hidden", 1);
+            // Change labels of 'state' and 'pincode' fields
+            frm.set_df_property("state", "label", "Governorate");
+            frm.set_df_property("pincode", "label", "PACI");
+        } else {
+            frm.set_df_property("city", "hidden", 0);
+            frm.set_df_property("county", "hidden", 0);
+            // Reset labels of 'state' and 'pincode' fields to default
+            frm.set_df_property("state", "label", "State/Province");
+            frm.set_df_property("pincode", "label", "Postal Code");
+            // Hide the custom_district field
+            frm.set_df_property("custom_district", "hidden", 1);
+            // frm.reload_doc();
+        }
     },
 
     custom_district: function(frm) {
