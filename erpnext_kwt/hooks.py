@@ -26,6 +26,7 @@ fixtures = [
             "in",
             {
                 "Address-custom_district",
+                "Customer-custom_ar_name",
             }
         ]
     ]},
@@ -34,6 +35,7 @@ fixtures = [
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/erpnext_kwt/css/erpnext_kwt.css"
+app_include_js = "kwt_erpnext.bundle.js"
 # app_include_js = "/assets/erpnext_kwt/js/erpnext_kwt.js"
 
 # include js, css files in header of web template
@@ -52,10 +54,20 @@ fixtures = [
 
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
-doctype_js = {
-    "Address": "public/js/kwt_address.js"
-}
+
+###########
+# doctype_js = {
+#     "Address": "public/js/kwt_address.js",
+# }
+
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+# includes quick entry from list view
+
+###########
+# doctype_list_js = {
+#     "Customer": "public/js/kwt_contact_address_quick_entry.js"
+# }
+
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
