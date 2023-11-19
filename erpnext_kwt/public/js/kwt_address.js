@@ -59,4 +59,12 @@ frappe.ui.form.on('Address', {
         });
     },
 
+    refresh: function(frm) {
+        if (frm.doc.country == "Kuwait") {
+            frm.set_kwt_address();
+        } else {
+            frm.reset_address();
+        }
+    },
+
 })
