@@ -1,6 +1,7 @@
 frappe.provide('frappe.ui.form');
 
 const originalGetVariantFields = frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields;
+const originalRenderDialog = frappe.ui.form.ContactAddressQuickEntryForm.prototype.render_dialog;
 
 
 // Override the get_variant_fields method for KWT format
@@ -86,7 +87,6 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields = funct
         return variant_fields;    
 };
 
-const originalRenderDialog = frappe.ui.form.ContactAddressQuickEntryForm.prototype.render_dialog;
 
 frappe.ui.form.ContactAddressQuickEntryForm.prototype.render_dialog = function() {
     // Call original render_dialog
@@ -99,14 +99,12 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.render_dialog = function()
         };
     }
 
-
     // Attach onchange handler to custom_district field
     if (this.dialog.fields_dict.custom_district) {
         this.dialog.fields_dict.custom_district.df.onchange = () => {
             this.custom_district_changed();
         };
     }
-    // super.render_dialog();
 };
 
 frappe.ui.form.ContactAddressQuickEntryForm.prototype.custom_district_changed = function() {
@@ -120,7 +118,6 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.custom_district_changed = 
                     this.dialog.set_value('state', r.message.governorate);
                     // As well as hidden city field value
                     this.dialog.set_value('city', custom_district_value);
-                    this.dialog.set_value('custom_district', custom_district_value);
                 }
             });
     }
@@ -136,23 +133,4 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.country_changed = function
         this.dialog.set_df_property('state', 'label', 'State/Province');
         this.dialog.set_df_property('pincode', 'label', 'Postal Code');
     }
-};
-
-const originalInsert = frappe.ui.form.ContactAddressQuickEntryForm.prototype.insert;
-frappe.ui.form.ContactAddressQuickEntryForm.prototype.insert = function() {
-    this.dialog.doc['custom_district'] = this.dialog.fields_dict['custom_district'].get_value();
-	/**
-	 * Using alias fieldnames because the doctype definition define "email_id" and "mobile_no" as readonly fields.
-	 * Therefor, resulting in the fields being "hidden".
-	 */
-	const map_field_names = {
-		"email_address": "email_id",
-		"mobile_number": "mobile_no",
-	};
-	Object.entries(map_field_names).forEach(([fieldname, new_fieldname]) => {
-		this.dialog.doc[new_fieldname] = this.dialog.doc[fieldname];
-		delete this.dialog.doc[fieldname];
-	});
-
-	return frappe.ui.form.QuickEntryForm.prototype.insert.apply(this);
 };
