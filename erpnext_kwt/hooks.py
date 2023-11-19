@@ -37,7 +37,7 @@ fixtures = [
 # app_include_css = "/assets/erpnext_kwt/css/erpnext_kwt.css"
 # app_include_js = "/assets/erpnext_kwt/js/erpnext_kwt.js"
 # TODO: Uncomment After Work Mods Verification
-# app_include_js = "kwt_erpnext.bundle.js"
+app_include_js = "kwt_erpnext.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_kwt/css/erpnext_kwt.css"
@@ -57,17 +57,17 @@ fixtures = [
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 
 #TODO: Comment After Work Mods Verification
-doctype_js = {
-    "Address": "public/js/kwt_address.js",
-}
+# doctype_js = {
+#     "Address": "public/js/kwt_address.js",
+# }
 
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # includes quick entry from list view
 
 #TODO: Comment After Work Mods Verification
-doctype_list_js = {
-    "Customer": "public/js/kwt_contact_address_quick_entry.js"
-}
+# doctype_list_js = {
+#     "Customer": "public/js/kwt_contact_address_quick_entry.js"
+# }
 
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -163,6 +163,11 @@ doctype_list_js = {
 #		"on_trash": "method"
 #	}
 # }
+doc_events = {
+    "Address": {
+        "validate": "erpnext_kwt.erpnext_kwt.kwt_methods.validate_address.validate_address",
+    }
+}
 
 # Scheduled Tasks
 # ---------------
