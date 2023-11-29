@@ -26,6 +26,7 @@ fixtures = [
             "in",
             {
                 "Address-custom_district",
+                "Address-custom_filtered_customer_name",
                 "Customer-custom_ar_name",
             }
         ]
@@ -65,9 +66,10 @@ app_include_js = "kwt_erpnext.bundle.js"
 # includes quick entry from list view
 
 #TODO: Comment After Work Mods Verification
-# doctype_list_js = {
-#     "Customer": "public/js/kwt_contact_address_quick_entry.js"
-# }
+doctype_list_js = {
+    # "Customer": "public/js/kwt_contact_address_quick_entry.js",
+    # "Address": "public/js/kwtAddressLinkNameSearch.js",
+}
 
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
@@ -166,6 +168,7 @@ app_include_js = "kwt_erpnext.bundle.js"
 doc_events = {
     "Address": {
         "validate": "erpnext_kwt.erpnext_kwt.kwt_methods.validate_address.validate_address",
+        "before_save": "erpnext_kwt.erpnext_kwt.kwt_methods.custom_filters.set_custom_field",
     }
 }
 
