@@ -2,6 +2,22 @@
  {
   "docstatus": 0,
   "doctype": "KWT Governorate",
+  "governorate_abbreviation": "AS",
+  "governorate_name": "AlAsima",
+  "modified": "2023-09-14 10:13:25.039195",
+  "name": "AlAsima"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "MK",
+  "governorate_name": "Mubarak AlKabeer",
+  "modified": "2023-09-14 10:14:15.620193",
+  "name": "Mubarak AlKabeer"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
   "governorate_abbreviation": "AH",
   "governorate_name": "Ahmadi",
   "modified": "2023-09-14 10:12:55.681278",
