@@ -27,6 +27,8 @@ fixtures = [
             {
                 "Address-custom_district",
                 "Address-custom_filtered_customer_name",
+                "Customer-custom_customer_doctype_district",
+                "Customer-custom_contact_doctype_mobile",
                 "Customer-custom_ar_name",
             }
         ]
