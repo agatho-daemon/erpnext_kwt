@@ -26,14 +26,6 @@
  {
   "docstatus": 0,
   "doctype": "KWT Governorate",
-  "governorate_abbreviation": "AS",
-  "governorate_name": "Al Asimah",
-  "modified": "2023-09-14 10:13:25.039195",
-  "name": "Al Asimah"
- },
- {
-  "docstatus": 0,
-  "doctype": "KWT Governorate",
   "governorate_abbreviation": "FR",
   "governorate_name": "Farwaniya",
   "modified": "2023-09-14 10:13:36.228893",
@@ -54,13 +46,5 @@
   "governorate_name": "Jahra",
   "modified": "2023-09-14 10:14:05.513153",
   "name": "Jahra"
- },
- {
-  "docstatus": 0,
-  "doctype": "KWT Governorate",
-  "governorate_abbreviation": "MK",
-  "governorate_name": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:14:15.620193",
-  "name": "Mubarak Al-Kabeer"
  }
 ]

@@ -4,8 +4,6 @@
 
 // Districts listview
 frappe.listview_settings['KWT District'] = {
-    // add_fields: ['address_html'],
-    // filters: ['address_html'],
     hide_name_column: true,
 };
 
