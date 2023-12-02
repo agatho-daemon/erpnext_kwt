@@ -27,8 +27,6 @@ fixtures = [
             {
                 "Address-custom_district",
                 "Address-custom_filtered_customer_name",
-                "Customer-custom_customer_doctype_district",
-                "Customer-custom_contact_doctype_mobile",
                 "Customer-custom_ar_name",
             }
         ]
@@ -170,7 +168,6 @@ doctype_list_js = {
 doc_events = {
     "Address": {
         "validate": "erpnext_kwt.erpnext_kwt.kwt_methods.validate_address.validate_address",
-        "before_save": "erpnext_kwt.erpnext_kwt.kwt_methods.custom_filters.set_custom_field",
     }
 }
 
