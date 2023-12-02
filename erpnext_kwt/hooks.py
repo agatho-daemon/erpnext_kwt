@@ -66,10 +66,10 @@ app_include_js = "kwt_erpnext.bundle.js"
 # includes quick entry from list view
 
 #TODO: Comment After Work Mods Verification
-doctype_list_js = {
+# doctype_list_js = {
     # "Customer": "public/js/kwt_contact_address_quick_entry.js",
     # "Address": "public/js/kwtAddressLinkNameSearch.js",
-}
+# }
 
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
