@@ -36,13 +36,13 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields = funct
             fieldtype: "Link",
             options: "Country",
             default: "Kuwait",
-            reqd: 1
+            reqd: 0
         },
         {
             label: __("Address Line 1"),
             fieldname: "address_line1",
             fieldtype: "Data",
-            reqd: 1
+            reqd: 0
         },
         {
             label: __("Address Line 2"),
@@ -57,14 +57,14 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields = funct
             fieldname: "custom_district",
             fieldtype: "Link",
             options: "KWT District",
-            reqd: 1,
+            reqd: 0,
             hidden: 0
         },
         {
             label: __("City/Town"),
             fieldname: "city",
             fieldtype: "Data",
-            reqd: 1,
+            reqd: 0,
             hidden: 1
         },
         {
