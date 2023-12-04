@@ -20,17 +20,20 @@ required_apps = ["erpnext"]
 fixtures = [
     "KWT Governorate",
     "KWT District",
-    {"dt": "Custom Field", "filters": [
-        [
-            "name",
-            "in",
-            {
-                "Address-custom_district",
-                "Address-custom_filtered_customer_name",
-                "Customer-custom_ar_name",
-            }
-        ]
-    ]},
+    {
+        "dt": "Custom Field",
+        "filters": [
+            [
+                "name",
+                "in",
+                {
+                    "Address-custom_district",
+                    "Address-custom_filtered_customer_name",
+                    "Customer-custom_ar_name",
+                },
+            ]
+        ],
+    },
 ]
 
 
@@ -57,7 +60,7 @@ app_include_js = "kwt_erpnext.bundle.js"
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 
-#TODO: Comment After Work Mods Verification
+# TODO: Comment After Work Mods Verification
 # doctype_js = {
 #     "Address": "public/js/kwt_address.js",
 # }
@@ -65,10 +68,10 @@ app_include_js = "kwt_erpnext.bundle.js"
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
 # includes quick entry from list view
 
-#TODO: Comment After Work Mods Verification
+# TODO: Comment After Work Mods Verification
 # doctype_list_js = {
-    # "Customer": "public/js/kwt_contact_address_quick_entry.js",
-    # "Address": "public/js/kwtAddressLinkNameSearch.js",
+# "Customer": "public/js/kwt_contact_address_quick_entry.js",
+# "Address": "public/js/kwtAddressLinkNameSearch.js",
 # }
 
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
@@ -82,7 +85,7 @@ app_include_js = "kwt_erpnext.bundle.js"
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# 	"Role": "home_page"
 # }
 
 # Generators
@@ -96,8 +99,8 @@ app_include_js = "kwt_erpnext.bundle.js"
 
 # add methods and filters to jinja environment
 # jinja = {
-#	"methods": "erpnext_kwt.utils.jinja_methods",
-#	"filters": "erpnext_kwt.utils.jinja_filters"
+# 	"methods": "erpnext_kwt.utils.jinja_methods",
+# 	"filters": "erpnext_kwt.utils.jinja_filters"
 # }
 
 # Installation
@@ -139,11 +142,11 @@ app_include_js = "kwt_erpnext.bundle.js"
 # Permissions evaluated in scripted ways
 
 # permission_query_conditions = {
-#	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
+# 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
 #
 # has_permission = {
-#	"Event": "frappe.desk.doctype.event.event.has_permission",
+# 	"Event": "frappe.desk.doctype.event.event.has_permission",
 # }
 
 # DocType Class
@@ -151,7 +154,7 @@ app_include_js = "kwt_erpnext.bundle.js"
 # Override standard doctype classes
 
 # override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
+# 	"ToDo": "custom_app.overrides.CustomToDo"
 # }
 
 # Document Events
@@ -159,11 +162,11 @@ app_include_js = "kwt_erpnext.bundle.js"
 # Hook on document methods and events
 
 # doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
+# 	"*": {
+# 		"on_update": "method",
+# 		"on_cancel": "method",
+# 		"on_trash": "method"
+# 	}
 # }
 doc_events = {
     "Address": {
@@ -175,21 +178,21 @@ doc_events = {
 # ---------------
 
 # scheduler_events = {
-#	"all": [
-#		"erpnext_kwt.tasks.all"
-#	],
-#	"daily": [
-#		"erpnext_kwt.tasks.daily"
-#	],
-#	"hourly": [
-#		"erpnext_kwt.tasks.hourly"
-#	],
-#	"weekly": [
-#		"erpnext_kwt.tasks.weekly"
-#	],
-#	"monthly": [
-#		"erpnext_kwt.tasks.monthly"
-#	],
+# 	"all": [
+# 		"erpnext_kwt.tasks.all"
+# 	],
+# 	"daily": [
+# 		"erpnext_kwt.tasks.daily"
+# 	],
+# 	"hourly": [
+# 		"erpnext_kwt.tasks.hourly"
+# 	],
+# 	"weekly": [
+# 		"erpnext_kwt.tasks.weekly"
+# 	],
+# 	"monthly": [
+# 		"erpnext_kwt.tasks.monthly"
+# 	],
 # }
 
 # Testing
@@ -201,14 +204,14 @@ doc_events = {
 # ------------------------------
 #
 # override_whitelisted_methods = {
-#	"frappe.desk.doctype.event.event.get_events": "erpnext_kwt.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "erpnext_kwt.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-#	"Task": "erpnext_kwt.task.get_dashboard_data"
+# 	"Task": "erpnext_kwt.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -234,29 +237,29 @@ doc_events = {
 # --------------------
 
 # user_data_fields = [
-#	{
-#		"doctype": "{doctype_1}",
-#		"filter_by": "{filter_by}",
-#		"redact_fields": ["{field_1}", "{field_2}"],
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_2}",
-#		"filter_by": "{filter_by}",
-#		"partial": 1,
-#	},
-#	{
-#		"doctype": "{doctype_3}",
-#		"strict": False,
-#	},
-#	{
-#		"doctype": "{doctype_4}"
-#	}
+# 	{
+# 		"doctype": "{doctype_1}",
+# 		"filter_by": "{filter_by}",
+# 		"redact_fields": ["{field_1}", "{field_2}"],
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_2}",
+# 		"filter_by": "{filter_by}",
+# 		"partial": 1,
+# 	},
+# 	{
+# 		"doctype": "{doctype_3}",
+# 		"strict": False,
+# 	},
+# 	{
+# 		"doctype": "{doctype_4}"
+# 	}
 # ]
 
 # Authentication and authorization
 # --------------------------------
 
 # auth_hooks = [
-#	"erpnext_kwt.auth.validate"
+# 	"erpnext_kwt.auth.validate"
 # ]
