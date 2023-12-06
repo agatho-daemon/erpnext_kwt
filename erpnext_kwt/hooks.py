@@ -28,7 +28,6 @@ fixtures = [
                 "in",
                 {
                     "Address-custom_district",
-                    "Address-custom_filtered_customer_name",
                     "Customer-custom_ar_name",
                 },
             ]

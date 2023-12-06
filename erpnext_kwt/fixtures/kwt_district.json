@@ -1010,16 +1010,6 @@
   "territory": null
  },
  {
-  "district_abbreviation": "SMY",
-  "district_name": "Salmiya",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "Hawalli",
-  "modified": "2023-12-02 11:09:28.308119",
-  "name": "Salmiya",
-  "territory": null
- },
- {
   "district_abbreviation": "SLW",
   "district_name": "Salwa",
   "docstatus": 0,
@@ -1057,16 +1047,6 @@
   "governorate": "AlAsima",
   "modified": "2023-12-02 11:42:06.729127",
   "name": "Shamiya",
-  "territory": null
- },
- {
-  "district_abbreviation": "SHQ",
-  "district_name": "Sharq",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "AlAsima",
-  "modified": "2023-12-02 11:42:06.678550",
-  "name": "Sharq",
   "territory": null
  },
  {
@@ -1157,16 +1137,6 @@
   "governorate": "Mubarak AlKabeer",
   "modified": "2023-12-02 11:42:36.936974",
   "name": "Subhan",
-  "territory": null
- },
- {
-  "district_abbreviation": "SUK",
-  "district_name": "Sulaibikhat",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "AlAsima",
-  "modified": "2023-12-02 11:42:06.753397",
-  "name": "Sulaibikhat",
   "territory": null
  },
  {
@@ -1288,5 +1258,55 @@
   "modified": "2023-12-02 11:09:28.065170",
   "name": "Zoor",
   "territory": null
+ },
+ {
+  "district_abbreviation": "SMY",
+  "district_name": "Salmiya",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Hawalli",
+  "modified": "2023-12-02 11:09:28.308119",
+  "name": "Salmiya",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "SHQ",
+  "district_name": "Sharq",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.678550",
+  "name": "Sharq",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "SUK",
+  "district_name": "Sulaibikhat",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.753397",
+  "name": "Sulaibikhat",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "NJ",
+  "district_name": "North West Jahra",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-06 07:38:17.613548",
+  "name": "North West Jahra",
+  "territory": "4th Ring Road"
+ },
+ {
+  "district_abbreviation": "A4",
+  "district_name": "Ardiya 4",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Farwaniya",
+  "modified": "2023-12-06 07:15:36.529112",
+  "name": "Ardiya 4",
+  "territory": "5th Ring Road"
  }
 ]

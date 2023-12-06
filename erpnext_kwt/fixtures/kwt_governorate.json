@@ -26,18 +26,18 @@
  {
   "docstatus": 0,
   "doctype": "KWT Governorate",
-  "governorate_abbreviation": "FR",
-  "governorate_name": "Farwaniya",
-  "modified": "2023-09-14 10:13:36.228893",
-  "name": "Farwaniya"
- },
- {
-  "docstatus": 0,
-  "doctype": "KWT Governorate",
   "governorate_abbreviation": "HW",
   "governorate_name": "Hawalli",
   "modified": "2023-09-14 10:13:48.901984",
   "name": "Hawalli"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "KWT Governorate",
+  "governorate_abbreviation": "FR",
+  "governorate_name": "Farwaniya",
+  "modified": "2023-09-14 10:13:36.228893",
+  "name": "Farwaniya"
  },
  {
   "docstatus": 0,
