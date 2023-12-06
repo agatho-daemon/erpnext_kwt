@@ -2,6 +2,11 @@
 // Author: WSQG
 // Version: 0.0.1
 
+// Districts listview
+frappe.listview_settings['KWT District'] = {
+    hide_name_column: true,
+};
+
 // For a Kuwait address, we need to:
 // 1. Use a custom_district field linked to the KWT District doctype
 // 2. Hide the City and County fields, and set the City field from the District field

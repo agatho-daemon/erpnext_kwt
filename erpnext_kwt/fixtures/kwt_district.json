@@ -5,19 +5,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:22:26.376567",
+  "modified": "2023-12-02 11:09:28.736711",
   "name": "Abdali",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "ABS",
   "district_name": "Abdullah Al-Salem",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.458576",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.771328",
   "name": "Abdullah Al-Salem",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "ABM",
@@ -25,9 +25,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.474003",
+  "modified": "2023-12-02 11:09:28.727023",
   "name": "Abdullah Mubarak",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ABP",
@@ -35,29 +35,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.480483",
+  "modified": "2023-12-02 11:09:28.722493",
   "name": "Abdullah Port",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "ABH",
   "district_name": "Abu Al Hasaniya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.486765",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.996071",
   "name": "Abu Al Hasaniya",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "AFU",
   "district_name": "Abu Futaira",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.493644",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.972342",
   "name": "Abu Futaira",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "AHU",
@@ -65,29 +65,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.497870",
+  "modified": "2023-12-02 11:09:28.709671",
   "name": "Abu Hulaifa",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "ADA",
   "district_name": "Adan",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.502148",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.879743",
   "name": "Adan",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "ADI",
   "district_name": "Adiliya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.507337",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.699571",
   "name": "Adiliya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "AHM",
@@ -95,9 +95,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.512053",
+  "modified": "2023-12-02 11:09:28.695833",
   "name": "Ahmadi",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "AID",
@@ -105,9 +105,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.516335",
+  "modified": "2023-12-02 11:09:28.691343",
   "name": "Airport District",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ASM",
@@ -115,9 +115,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.520305",
+  "modified": "2023-12-02 11:09:28.687041",
   "name": "Ali As-Salim",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "AMG",
@@ -125,9 +125,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.524063",
+  "modified": "2023-12-02 11:09:28.682267",
   "name": "Amghara",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "AND",
@@ -135,9 +135,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.530496",
+  "modified": "2023-12-02 11:09:28.677794",
   "name": "Andalous",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ANJ",
@@ -145,9 +145,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.534160",
+  "modified": "2023-12-02 11:09:28.672476",
   "name": "Anjafa",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "ARD",
@@ -155,9 +155,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.539731",
+  "modified": "2023-12-02 11:09:28.667071",
   "name": "Ardiya",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ARH",
@@ -165,9 +165,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.543777",
+  "modified": "2023-12-02 11:09:28.658777",
   "name": "Ardiya Herafiya",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ARI",
@@ -175,9 +175,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.546828",
+  "modified": "2023-12-02 11:09:28.654435",
   "name": "Ardiya Industrial",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "ASH",
@@ -185,9 +185,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.550119",
+  "modified": "2023-12-02 11:09:28.650150",
   "name": "Ashbeliah",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "BYN",
@@ -195,9 +195,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.552762",
+  "modified": "2023-12-02 11:09:28.645670",
   "name": "Bayan",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "BDA",
@@ -205,19 +205,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.555629",
+  "modified": "2023-12-02 11:09:28.641104",
   "name": "Bida'a",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "BNG",
   "district_name": "Bnaid Al-Qar",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.558363",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.757821",
   "name": "Bnaid Al-Qar",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "BDR",
@@ -225,39 +225,39 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.561129",
+  "modified": "2023-12-02 11:09:28.633169",
   "name": "Bnaider",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "DYA",
   "district_name": "Daiya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.563565",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.647811",
   "name": "Daiya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "DSM",
   "district_name": "Dasma",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.565802",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.652441",
   "name": "Dasma",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "DSN",
   "district_name": "Dasman",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.568039",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.686949",
   "name": "Dasman",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "DHH",
@@ -265,9 +265,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.570501",
+  "modified": "2023-12-02 11:09:28.617750",
   "name": "Dhaher",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "DHJ",
@@ -275,19 +275,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.572614",
+  "modified": "2023-12-02 11:09:28.613378",
   "name": "Dhajeej",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "DOH",
   "district_name": "Doha",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.574919",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.524982",
   "name": "Doha",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "EGA",
@@ -295,9 +295,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.577182",
+  "modified": "2023-12-02 11:09:28.605429",
   "name": "Egaila",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "FAA",
@@ -305,9 +305,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.579272",
+  "modified": "2023-12-02 11:09:28.601763",
   "name": "Fahad Al-Ahmad",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "FAH",
@@ -315,29 +315,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.581226",
+  "modified": "2023-12-02 11:09:28.597723",
   "name": "Fahaheel",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "FIH",
   "district_name": "Faiha",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.583060",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.656475",
   "name": "Faiha",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "FLK",
   "district_name": "Failaka",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.584931",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.704301",
   "name": "Failaka",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "FRW",
@@ -345,29 +345,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.586798",
+  "modified": "2023-12-02 11:09:28.584922",
   "name": "Farwaniya",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "FNT",
   "district_name": "Fintas",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.588679",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.907261",
   "name": "Fintas",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "FNE",
   "district_name": "Fnaitees",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.590950",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.964529",
   "name": "Fnaitees",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "FRD",
@@ -375,19 +375,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.593134",
+  "modified": "2023-12-02 11:09:28.573055",
   "name": "Fordous",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "GHO",
   "district_name": "Ghornata",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.595291",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.737762",
   "name": "Ghornata",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "HDY",
@@ -395,9 +395,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.597152",
+  "modified": "2023-12-02 11:09:28.564859",
   "name": "Hadiya",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "HWL",
@@ -405,9 +405,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.600123",
+  "modified": "2023-12-02 11:09:28.560393",
   "name": "Hawalli",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "HIT",
@@ -415,19 +415,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.602241",
+  "modified": "2023-12-02 11:09:28.556260",
   "name": "Hitteen",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "JBA",
   "district_name": "Jaber Al-Ahmad",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.604348",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.767517",
   "name": "Jaber Al-Ahmad",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "JBL",
@@ -435,9 +435,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.606423",
+  "modified": "2023-12-02 11:09:28.548615",
   "name": "Jaber Al-Ali",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "JBR",
@@ -445,9 +445,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.608681",
+  "modified": "2023-12-02 11:09:28.544459",
   "name": "Jabriya",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "JHR",
@@ -455,9 +455,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.610916",
+  "modified": "2023-12-02 11:09:28.540702",
   "name": "Jahra",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "JIA",
@@ -465,9 +465,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.612949",
+  "modified": "2023-12-02 11:09:28.537081",
   "name": "Jahra Industrial Area",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "JLA",
@@ -475,9 +475,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.615037",
+  "modified": "2023-12-02 11:09:28.533016",
   "name": "JLea'a",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "JLS",
@@ -485,9 +485,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.617375",
+  "modified": "2023-12-02 11:09:28.528823",
   "name": "Jleeb Al-Shiyoukh",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "KBD",
@@ -495,9 +495,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.619311",
+  "modified": "2023-12-02 11:09:28.525065",
   "name": "Kabad",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "KWN",
@@ -505,19 +505,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.621435",
+  "modified": "2023-12-02 11:09:28.521402",
   "name": "Kaerawan",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "KFN",
   "district_name": "Kaifan",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.623753",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.690820",
   "name": "Kaifan",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "KHN",
@@ -525,9 +525,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.625804",
+  "modified": "2023-12-02 11:09:28.512949",
   "name": "Khairan",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "KHC",
@@ -535,9 +535,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.627808",
+  "modified": "2023-12-02 11:09:28.509266",
   "name": "Khairan City",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "KHT",
@@ -545,19 +545,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.629985",
+  "modified": "2023-12-02 11:09:28.505489",
   "name": "Khaitan",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "KHD",
   "district_name": "Khaldiya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.632065",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.741512",
   "name": "Khaldiya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "MGW",
@@ -565,9 +565,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.634165",
+  "modified": "2023-12-02 11:09:28.497451",
   "name": "Magwa",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "MHB",
@@ -575,9 +575,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.636339",
+  "modified": "2023-12-02 11:09:28.492965",
   "name": "Mahbula",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "MI",
@@ -585,9 +585,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.638239",
+  "modified": "2023-12-02 11:09:28.489415",
   "name": "Maidan Hawalli",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "MGF",
@@ -595,49 +595,49 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.640213",
+  "modified": "2023-12-02 11:09:28.485389",
   "name": "Mangaf",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "MNS",
   "district_name": "Mansouriya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.642325",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.749405",
   "name": "Mansouriya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "MSY",
   "district_name": "Masayel",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.644363",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.946014",
   "name": "Masayel",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "MSL",
   "district_name": "Messila",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.646412",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.955469",
   "name": "Messila",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "MRQ",
   "district_name": "Mirqab",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.648468",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.694774",
   "name": "Mirqab",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "MSF",
@@ -645,9 +645,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.650422",
+  "modified": "2023-12-02 11:09:28.463301",
   "name": "Mishrif",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "MBA",
@@ -655,9 +655,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.652471",
+  "modified": "2023-12-02 11:09:28.459355",
   "name": "Mubarak Al-Abdulla",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "MBH",
@@ -665,19 +665,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.654520",
+  "modified": "2023-12-02 11:09:28.455751",
   "name": "Mubarak Al-Jabir",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "MBK",
   "district_name": "Mubarak Al-Kabeer",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.656458",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:37.004166",
   "name": "Mubarak Al-Kabeer",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "MTL",
@@ -685,9 +685,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.658736",
+  "modified": "2023-12-02 11:09:28.447735",
   "name": "Mutlaa",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "NEM",
@@ -695,19 +695,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.660594",
+  "modified": "2023-12-02 11:09:28.443068",
   "name": "Naeem",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "NHD",
   "district_name": "Nahda",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.662908",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.660411",
   "name": "Nahda",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "NSM",
@@ -715,9 +715,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.665207",
+  "modified": "2023-12-02 11:09:28.434691",
   "name": "Nasseem",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "NGR",
@@ -725,19 +725,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.667460",
+  "modified": "2023-12-02 11:09:28.430116",
   "name": "Nigra",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "NWS",
   "district_name": "Northwest Sulaibekhat",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.669730",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.779237",
   "name": "Northwest Sulaibekhat",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "NSB",
@@ -745,19 +745,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.672027",
+  "modified": "2023-12-02 11:09:28.420962",
   "name": "Nuwaiseeb",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "NZH",
   "district_name": "Nuzha",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.674406",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.664987",
   "name": "Nuzha",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "OMR",
@@ -765,9 +765,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.676920",
+  "modified": "2023-12-02 11:09:28.411300",
   "name": "Omariya",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "OYN",
@@ -775,19 +775,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.679438",
+  "modified": "2023-12-02 11:09:28.406746",
   "name": "Oyoun",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "QDS",
   "district_name": "Qadsiya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.681985",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.708854",
   "name": "Qadsiya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "QSR",
@@ -795,49 +795,49 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.684435",
+  "modified": "2023-12-02 11:09:28.397616",
   "name": "Qasr",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "QBL",
   "district_name": "Qibla",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.686278",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.669237",
   "name": "Qibla",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "QRN",
   "district_name": "Qurain",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.688233",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.917657",
   "name": "Qurain",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "QRT",
   "district_name": "Qurtuba",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.690761",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.713667",
   "name": "Qurtuba",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "QUS",
   "district_name": "Qusour",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.693362",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.927517",
   "name": "Qusour",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "RBY",
@@ -845,9 +845,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.695776",
+  "modified": "2023-12-02 11:09:28.378089",
   "name": "Rabiya",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "RAI",
@@ -855,19 +855,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.698200",
+  "modified": "2023-12-02 11:09:28.373836",
   "name": "Rai",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "RWD",
   "district_name": "Rawda",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.700558",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.673745",
   "name": "Rawda",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "RHB",
@@ -875,9 +875,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.702851",
+  "modified": "2023-12-02 11:09:28.365277",
   "name": "Rehab",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "RGI",
@@ -885,9 +885,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.705253",
+  "modified": "2023-12-02 11:09:28.360608",
   "name": "Riggai",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "RQQ",
@@ -895,9 +895,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.707548",
+  "modified": "2023-12-02 11:09:28.356880",
   "name": "Riqqa",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "RUM",
@@ -905,9 +905,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.709799",
+  "modified": "2023-12-02 11:09:28.352975",
   "name": "Rumaithiya",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SAM",
@@ -915,9 +915,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.712540",
+  "modified": "2023-12-02 11:09:28.348909",
   "name": "S. Abdullah Mubarak",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "SAA",
@@ -925,9 +925,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.714854",
+  "modified": "2023-12-02 11:09:28.344623",
   "name": "Saad Al-Abdullah",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "SBA",
@@ -935,9 +935,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.717234",
+  "modified": "2023-12-02 11:09:28.340930",
   "name": "Sabah Al-Ahmad",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "SBM",
@@ -945,9 +945,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.719805",
+  "modified": "2023-12-02 11:09:28.337336",
   "name": "Sabah Al-Ahmad Al-marine",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "SBN",
@@ -955,19 +955,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.721808",
+  "modified": "2023-12-02 11:09:28.333481",
   "name": "Sabah Al-Nasser",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "SBS",
   "district_name": "Sabah Al-Salem",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.723603",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.988426",
   "name": "Sabah Al-Salem",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "SBY",
@@ -975,9 +975,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.726017",
+  "modified": "2023-12-02 11:09:28.325127",
   "name": "Sabahiya",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "SLM",
@@ -985,19 +985,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.728349",
+  "modified": "2023-12-02 11:09:28.321498",
   "name": "Salam",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SHY",
   "district_name": "Salhiya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.731068",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.719244",
   "name": "Salhiya",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SLI",
@@ -1005,19 +1005,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.733300",
+  "modified": "2023-12-02 11:09:28.312650",
   "name": "Salmi",
-  "territory": "Jahra"
- },
- {
-  "district_abbreviation": "SMY",
-  "district_name": "Salmiya",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.735647",
-  "name": "Salmiya",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SLW",
@@ -1025,19 +1015,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.737886",
+  "modified": "2023-12-02 11:09:28.303729",
   "name": "Salwa",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SWB",
   "district_name": "Sawabir",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.740311",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.724533",
   "name": "Sawabir",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SHB",
@@ -1045,29 +1035,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.742404",
+  "modified": "2023-12-02 11:09:28.294334",
   "name": "Shaab",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SHM",
   "district_name": "Shamiya",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.744601",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.729127",
   "name": "Shamiya",
-  "territory": "Al Asimah"
- },
- {
-  "district_abbreviation": "SHQ",
-  "district_name": "Sharq",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.746866",
-  "name": "Sharq",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SHU",
@@ -1075,9 +1055,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.749090",
+  "modified": "2023-12-02 11:09:28.281647",
   "name": "Shuaiba",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "SHD",
@@ -1085,39 +1065,39 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.751501",
+  "modified": "2023-12-02 11:09:28.277211",
   "name": "Shuhada",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SWK",
   "district_name": "Shuwaikh",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.753925",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.745331",
   "name": "Shuwaikh",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SWI",
   "district_name": "Shuwaikh Industrial",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.756308",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.774999",
   "name": "Shuwaikh Industrial",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SWP",
   "district_name": "Shuwaikh Port",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.758451",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.763183",
   "name": "Shuwaikh Port",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SDQ",
@@ -1125,9 +1105,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.762075",
+  "modified": "2023-12-02 11:09:28.256969",
   "name": "Siddiq",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "SOS",
@@ -1135,39 +1115,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.765316",
+  "modified": "2023-12-02 11:09:28.252263",
   "name": "South Sabahiya",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "SOW",
   "district_name": "South Wista",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.767995",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.980537",
   "name": "South Wista",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "SBH",
   "district_name": "Subhan",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.770099",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.936974",
   "name": "Subhan",
-  "territory": "Mubarak Al-Kabeer"
- },
- {
-  "district_abbreviation": "SUK",
-  "district_name": "Sulaibikhat",
-  "docstatus": 0,
-  "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.771718",
-  "name": "Sulaibikhat",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "SLB",
@@ -1175,9 +1145,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.789449",
+  "modified": "2023-12-02 11:09:28.234383",
   "name": "Sulaibiya",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "SLA",
@@ -1185,19 +1155,19 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.791454",
+  "modified": "2023-12-02 11:09:28.229411",
   "name": "Sulaibiya Agricultural",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "SRR",
   "district_name": "Surra",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.793202",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.682996",
   "name": "Surra",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "TAM",
@@ -1205,9 +1175,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.794905",
+  "modified": "2023-12-02 11:09:28.219817",
   "name": "Taima",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "WAM",
@@ -1215,9 +1185,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Farwaniya",
-  "modified": "2023-09-14 10:35:49.796551",
+  "modified": "2023-12-02 11:09:28.214384",
   "name": "W. Abdullah Mubarak",
-  "territory": "Farwaniya"
+  "territory": null
  },
  {
   "district_abbreviation": "WFR",
@@ -1225,9 +1195,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.798204",
+  "modified": "2023-12-02 11:09:28.209907",
   "name": "Wafra",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "WFC",
@@ -1235,9 +1205,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.799854",
+  "modified": "2023-12-02 11:09:28.205297",
   "name": "Wafra City",
-  "territory": "Ahmadi"
+  "territory": null
  },
  {
   "district_abbreviation": "WHA",
@@ -1245,29 +1215,29 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Jahra",
-  "modified": "2023-09-14 10:35:49.801704",
+  "modified": "2023-12-02 11:09:28.200109",
   "name": "Waha",
-  "territory": "Jahra"
+  "territory": null
  },
  {
   "district_abbreviation": "WST",
   "district_name": "Wista",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Mubarak Al-Kabeer",
-  "modified": "2023-09-14 10:35:49.803458",
+  "governorate": "Mubarak AlKabeer",
+  "modified": "2023-12-02 11:42:36.897758",
   "name": "Wista",
-  "territory": "Mubarak Al-Kabeer"
+  "territory": null
  },
  {
   "district_abbreviation": "YMK",
   "district_name": "Yarmouk",
   "docstatus": 0,
   "doctype": "KWT District",
-  "governorate": "Al Asimah",
-  "modified": "2023-09-14 10:35:49.805344",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.733817",
   "name": "Yarmouk",
-  "territory": "Al Asimah"
+  "territory": null
  },
  {
   "district_abbreviation": "ZHR",
@@ -1275,9 +1245,9 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Hawalli",
-  "modified": "2023-09-14 10:35:49.807190",
+  "modified": "2023-12-02 11:09:28.184586",
   "name": "Zahra",
-  "territory": "Hawalli"
+  "territory": null
  },
  {
   "district_abbreviation": "ZOR",
@@ -1285,8 +1255,58 @@
   "docstatus": 0,
   "doctype": "KWT District",
   "governorate": "Ahmadi",
-  "modified": "2023-09-14 10:35:49.809066",
+  "modified": "2023-12-02 11:09:28.065170",
   "name": "Zoor",
-  "territory": "Ahmadi"
+  "territory": null
+ },
+ {
+  "district_abbreviation": "SMY",
+  "district_name": "Salmiya",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Hawalli",
+  "modified": "2023-12-02 11:09:28.308119",
+  "name": "Salmiya",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "SHQ",
+  "district_name": "Sharq",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.678550",
+  "name": "Sharq",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "SUK",
+  "district_name": "Sulaibikhat",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "AlAsima",
+  "modified": "2023-12-02 11:42:06.753397",
+  "name": "Sulaibikhat",
+  "territory": null
+ },
+ {
+  "district_abbreviation": "NJ",
+  "district_name": "North West Jahra",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-06 07:38:17.613548",
+  "name": "North West Jahra",
+  "territory": "4th Ring Road"
+ },
+ {
+  "district_abbreviation": "A4",
+  "district_name": "Ardiya 4",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Farwaniya",
+  "modified": "2023-12-06 07:15:36.529112",
+  "name": "Ardiya 4",
+  "territory": "5th Ring Road"
  }
 ]
