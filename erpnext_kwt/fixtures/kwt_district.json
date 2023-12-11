@@ -1,5 +1,125 @@
 [
  {
+  "district_abbreviation": "MTL01",
+  "district_name": "MutlaaN01",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:21:56.419472",
+  "name": "MutlaaN01",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL02",
+  "district_name": "MutlaaN02",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:15:54.448042",
+  "name": "MutlaaN02",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL03",
+  "district_name": "MutlaaN03",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:18:05.688452",
+  "name": "MutlaaN03",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL04",
+  "district_name": "MutlaaN04",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:22:25.309932",
+  "name": "MutlaaN04",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL05",
+  "district_name": "MutlaaN05",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:22:49.249079",
+  "name": "MutlaaN05",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL06",
+  "district_name": "MutlaaN06",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:23:14.047302",
+  "name": "MutlaaN06",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL07",
+  "district_name": "MutlaaN07",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:23:39.529943",
+  "name": "MutlaaN07",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL08",
+  "district_name": "MutlaaN08",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:24:01.071931",
+  "name": "MutlaaN08",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL09",
+  "district_name": "MutlaaN09",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:24:35.105040",
+  "name": "MutlaaN09",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL10",
+  "district_name": "MutlaaN10",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:27:18.915103",
+  "name": "MutlaaN10",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL11",
+  "district_name": "MutlaaN11",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:27:42.937834",
+  "name": "MutlaaN11",
+  "territory": "7th Ring Road"
+ },
+ {
+  "district_abbreviation": "MTL12",
+  "district_name": "MutlaaN12",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Jahra",
+  "modified": "2023-12-11 08:28:03.705981",
+  "name": "MutlaaN12",
+  "territory": "7th Ring Road"
+ },
+ {
   "district_abbreviation": "ABD",
   "district_name": "Abdali",
   "docstatus": 0,
@@ -1308,5 +1428,15 @@
   "modified": "2023-12-06 07:15:36.529112",
   "name": "Ardiya 4",
   "territory": "5th Ring Road"
+ },
+ {
+  "district_abbreviation": "AND",
+  "district_name": "Andalus",
+  "docstatus": 0,
+  "doctype": "KWT District",
+  "governorate": "Farwaniya",
+  "modified": "2023-12-06 11:01:47.431466",
+  "name": "Andalus",
+  "territory": null
  }
 ]
