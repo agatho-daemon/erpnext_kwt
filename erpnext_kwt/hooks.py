@@ -156,11 +156,6 @@ app_include_js = "kwt_erpnext.bundle.js"
 # 		"on_trash": "method"
 # 	}
 # }
-doc_events = {
-    "Address": {
-        "validate": "erpnext_kwt.erpnext_kwt.kwt_methods.validate_address.validate_address",
-    }
-}
 
 # Scheduled Tasks
 # ---------------
