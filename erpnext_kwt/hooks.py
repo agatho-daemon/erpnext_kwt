@@ -20,30 +20,8 @@ required_apps = ["erpnext"]
 fixtures = [
     # "KWT Governorate",
     # "KWT District",
-    {
-        "dt": "FUA State",
-        "filters": [
-            [
-                "country",
-                "in",
-                [
-                    "Kuwait",
-                ],
-            ],
-        ],
-    },
-    {
-        "dt": "FUA City",
-        "filters": [
-            [
-                "country",
-                "in",
-                [
-                    "Kuwait",
-                ],
-            ],
-        ],
-    },
+    {"dt": "FUA State", "filters": [["country", "in", ["Kuwait"]]]},
+    {"dt": "FUA City", "filters": [["country", "in", ["Kuwait"]]]},
 ]
 
 
