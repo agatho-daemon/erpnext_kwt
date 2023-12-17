@@ -31,18 +31,9 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields = funct
             collapsible: 1
         },
         {
-            label: __("Country"),
-            fieldname: "country",
-            fieldtype: "Link",
-            options: "Country",
-            default: "Kuwait",
-            reqd: 0
-        },
-        {
             label: __("Address Line 1"),
             fieldname: "address_line1",
             fieldtype: "Data",
-            reqd: 0
         },
         {
             label: __("Address Line 2"),
@@ -50,32 +41,31 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.get_variant_fields = funct
             fieldtype: "Data"
         },
         {
-            fieldtype: "Column Break"
+            label: __("PACI"),
+            fieldname: "pincode",
+            fieldtype: "Data"
         },
         {
-            label: __("District"),
-            fieldname: "custom_district",
-            fieldtype: "Link",
-            options: "KWT District",
-            reqd: 0,
-            hidden: 0
+            fieldtype: "Column Break"
         },
         {
             label: __("City/Town"),
             fieldname: "city",
-            fieldtype: "Data",
-            reqd: 0,
-            hidden: 1
+            fieldtype: "Link",
+            options: "FUA City",
         },
         {
             label: __("Governorate"),
             fieldname: "state",
-            fieldtype: "Data"
+            fieldtype: "Link",
+            options: "FUA State"
         },
         {
-            label: __("PACI"),
-            fieldname: "pincode",
-            fieldtype: "Data"
+            label: __("Country"),
+            fieldname: "country",
+            fieldtype: "Link",
+            options: "Country",
+            default: "Kuwait",
         },
         {
             label: __("Customer POS Id"),
@@ -99,25 +89,23 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.render_dialog = function()
         };
     }
 
-    // Attach onchange handler to custom_district field
-    if (this.dialog.fields_dict.custom_district) {
-        this.dialog.fields_dict.custom_district.df.onchange = () => {
-            this.custom_district_changed();
+    // Attach onchange handler to city field
+    if (this.dialog.fields_dict.city) {
+        this.dialog.fields_dict.city.df.onchange = () => {
+            this.city_changed();
         };
     }
 };
 
-frappe.ui.form.ContactAddressQuickEntryForm.prototype.custom_district_changed = function() {
-    let custom_district_value = this.dialog.get_value('custom_district');
-    if (custom_district_value) {
-        // Fetch Governorate based on custom_district value
-        frappe.db.get_value('KWT District', custom_district_value, 'governorate')
+frappe.ui.form.ContactAddressQuickEntryForm.prototype.city_changed = function() {
+    let city_value = this.dialog.get_value('city');
+    if (city_value) {
+        // Fetch Governorate based on city value
+        frappe.db.get_value('FUA City', {'city_name': city_value}, 'state')
             .then(r => {
                 if (r.message) {
                     // Set Governorate value
-                    this.dialog.set_value('state', r.message.governorate);
-                    // As well as hidden city field value
-                    this.dialog.set_value('city', custom_district_value);
+                    this.dialog.set_value('state', r.message.state);
                 }
             });
     }
@@ -126,10 +114,9 @@ frappe.ui.form.ContactAddressQuickEntryForm.prototype.custom_district_changed = 
 frappe.ui.form.ContactAddressQuickEntryForm.prototype.country_changed = function() {
     let country = this.dialog.get_value('country');
 
-    // If country is NOT Kuwait, carry on changes
+    // If country is NOT Kuwait, restore default labels
     if (country !== 'Kuwait') {
-        this.dialog.set_df_property('custom_district', 'hidden', 1);
-        this.dialog.set_df_property('city', 'hidden', 0);
+        this.dialog.set_df_property('city', 'label', 'City/Town');
         this.dialog.set_df_property('state', 'label', 'State/Province');
         this.dialog.set_df_property('pincode', 'label', 'Postal Code');
     }

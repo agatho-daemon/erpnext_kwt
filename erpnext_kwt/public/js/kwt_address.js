@@ -4,10 +4,8 @@
 // Last Update: 2023-12-17
 
 // For a Kuwait address, we need to:
-// 1. Use a custom_district field linked to the KWT District doctype
-// 2. Hide the City and County fields, and set the City field from the District field
-// 3. Change the labels of State and Pincode fields to Territory/Governorate and PACI
-// 4. Fetch the Territory/Governorate field value from the District doctype
+// 1. Change labels for City, State and Pincode fields
+// 4. Fetch the Governorate field value from the District doctype
 
 
 frappe.ui.form.on('Address', {
