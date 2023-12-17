@@ -2,10 +2,10 @@ from . import __version__ as app_version
 
 app_name = "erpnext_kwt"
 app_title = "ERPNext KWT"
-app_publisher = "Wasaq Group Co"
+app_publisher = "Ismail Tabtabai"
 app_description = "Kuwait Country Customizations."
 app_color = "#e74c3c"
-app_email = "info@wsqgroup.com"
+app_email = "ismail@tabtabai.org"
 app_license = "CC0 1.0 Universal"
 source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 
@@ -18,19 +18,30 @@ required_apps = ["erpnext"]
 
 # fixtures
 fixtures = [
-    "KWT Governorate",
-    "KWT District",
+    # "KWT Governorate",
+    # "KWT District",
     {
-        "dt": "Custom Field",
+        "dt": "FUA State",
         "filters": [
             [
-                "name",
+                "country",
                 "in",
-                {
-                    "Address-custom_district",
-                    "Customer-custom_ar_name",
-                },
-            ]
+                [
+                    "Kuwait",
+                ],
+            ],
+        ],
+    },
+    {
+        "dt": "FUA City",
+        "filters": [
+            [
+                "country",
+                "in",
+                [
+                    "Kuwait",
+                ],
+            ],
         ],
     },
 ]

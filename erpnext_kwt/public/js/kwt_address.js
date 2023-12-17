@@ -1,11 +1,7 @@
-// Description: Custom script for Address doctype
+// Description: Custom script for Address doctype in Kuwait
 // Author: WSQG
-// Version: 0.0.1
-
-// Districts listview
-frappe.listview_settings['KWT District'] = {
-    hide_name_column: true,
-};
+// Version: 0.0.2
+// Last Update: 2023-12-17
 
 // For a Kuwait address, we need to:
 // 1. Use a custom_district field linked to the KWT District doctype
@@ -19,30 +15,27 @@ frappe.ui.form.on('Address', {
 
         // KWT address settings
         frm.set_kwt_address = function() {
-            // Required fields
-            frm.set_df_property("custom_district", "hidden", 0);
-            // Hidden fields (note 'city' will be set from 'custom_district')
-            frm.set_df_property("city", "hidden", 1);
+            // Hidden fields
             frm.set_df_property("county", "hidden", 1);
-            // Fields that need to be renamed
+            // Fields that need be renamed
+            frm.set_df_property("city", "label", "District")
             frm.set_df_property("state", "label", "Governorate");
             frm.set_df_property("pincode", "label", "PACI");
         }
 
         // Reset address settings to default
         frm.reset_address = function() {
-            // Hidden fields
-            frm.set_df_property("custom_district", "hidden", 1);
-            // Default fields
-            frm.set_df_property("city", "hidden", 0);
+            // Restore Hidden fields
             frm.set_df_property("county", "hidden", 0);
-            // Reset fields to their default labels
+            // Restore default labels
+            frm.set_df_property("city", "label", "City/Town");
             frm.set_df_property("state", "label", "State/Province");
             frm.set_df_property("pincode", "label", "Postal Code");
         }
     },
 
     country: function(frm) {
+        // Change fields display according to Country field.
         if (frm.doc.country == "Kuwait") {
             frm.set_kwt_address();
         } else {
@@ -50,16 +43,12 @@ frappe.ui.form.on('Address', {
         }
     },
 
-    custom_district: function(frm) {
-        // Set the City (hidden field) from the District
-        let district_value = frm.doc.custom_district;
-        frm.set_value("city", district_value);
-
-        // Fetch the Territory/Governorate from the District
-        frappe.db.get_value("KWT District", frm.doc.custom_district, "governorate")
+    city: function(frm) {
+        // Fetch the Governorate from District Name
+        frappe.db.get_value("FUA City", {'city_name': frm.doc.city}, "state")
         .then (record => {
             if (record.message) {
-                frm.set_value("state", record.message.governorate);
+                frm.set_value("state", record.message.state);
             }
         });
     },
