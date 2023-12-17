@@ -33,22 +33,26 @@ frappe.ui.form.on('Address', {
     },
 
     country: function(frm) {
+
         // Change fields display according to Country field.
         if (frm.doc.country == "Kuwait") {
             frm.set_kwt_address();
         } else {
             frm.reset_address();
         }
+
     },
 
     city: function(frm) {
-        // Fetch the Governorate from District Name
-        frappe.db.get_value("FUA City", {'city_name': frm.doc.city}, "state")
-        .then (record => {
-            if (record.message) {
-                frm.set_value("state", record.message.state);
-            }
-        });
+        if (frm.doc.country == "Kuwait") {
+            // Fetch the Governorate from District Name
+            frappe.db.get_value("FUA City", frm.doc.city, "state")
+            .then (record => {
+                if (record.message) {
+                    frm.set_value("state", record.message.state);
+                }
+            });
+        }
     },
 
     refresh: function(frm) {
