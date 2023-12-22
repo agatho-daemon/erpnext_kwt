@@ -13,7 +13,7 @@ source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 # ------------------
 
 # Required apps
-required_apps = ["erpnext"]
+required_apps = ["frappe", "erpnext", "futilitap"]
 
 
 # fixtures
