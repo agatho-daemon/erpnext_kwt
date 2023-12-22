@@ -13,7 +13,3 @@ Includes, so far:
 #### License
 
 cc0-1.0
-
-## Maturity
-
-Not mature for release yet.
