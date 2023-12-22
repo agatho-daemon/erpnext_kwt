@@ -9,7 +9,7 @@ from erpnext_kwt import __version__ as version
 setup(
 	name="erpnext_kwt",
 	version=version,
-	description="Holding Regional Customizations for Kuwait.",
+	description="Country Customizations for Kuwait.",
 	author="Wasaq Group Co",
 	author_email="info@wsqgroup.com",
 	packages=find_packages(),
