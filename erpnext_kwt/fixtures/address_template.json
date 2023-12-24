@@ -1,0 +1,11 @@
+[
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "Address Template",
+  "is_default": 1,
+  "modified": "2023-12-24 09:33:09.604218",
+  "name": "Kuwait",
+  "template": "{{ address_line1 }}<br>\n{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{{ city }}<br>\n{% if state %}Governorate: {{ state }}<br>{% endif -%}\n{% if pincode %}PACI NO: {{ pincode }}<br>{% endif -%}\n{{ country }}<br>\n<br>\n{% if phone %}{{ _(\"Phone\") }}: {{ phone }}<br>{% endif -%}\n{% if fax %}{{ _(\"Fax\") }}: {{ fax }}<br>{% endif -%}\n{% if email_id %}{{ _(\"Email\") }}: {{ email_id }}<br>{% endif -%}\n"
+ }
+]

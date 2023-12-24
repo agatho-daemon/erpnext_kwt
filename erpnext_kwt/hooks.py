@@ -18,6 +18,7 @@ required_apps = ["frappe", "erpnext", "futilitap"]
 
 # fixtures
 fixtures = [
+	{"doctype": "Address Template", "filters": [["name", "=", "Kuwait"]]},
     # "KWT Governorate",
     # "KWT District",
     # {"dt": "FUA State", "filters": [["country", "in", ["Kuwait"]]]},
@@ -95,7 +96,9 @@ app_include_js = "kwt_erpnext.bundle.js"
 # ------------
 
 # before_install = "erpnext_kwt.install.before_install"
-# after_install = "erpnext_kwt.install.after_install"
+before_install = "wsq.setup.install.before_install"
+# before_migrate = "wsq.setup.migrate.before_migrate"
+
 
 # Uninstallation
 # ------------
