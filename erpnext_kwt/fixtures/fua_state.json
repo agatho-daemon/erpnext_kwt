@@ -1,0 +1,62 @@
+[
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.497399",
+  "name": "GOVR-00002",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "AS",
+  "state_name": "AlAsima"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.505620",
+  "name": "GOVR-00003",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "FR",
+  "state_name": "Farwaniya"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.513500",
+  "name": "GOVR-00004",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "HW",
+  "state_name": "Hawalli"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.526308",
+  "name": "GOVR-00006",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "MK",
+  "state_name": "Mubarak AlKabeer"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.467941",
+  "name": "GOVR-00001",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "AH",
+  "state_name": "Ahmadi"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2023-12-17 14:43:28.520463",
+  "name": "GOVR-00005",
+  "naming_series": "GOVR-",
+  "state_abbreviation": "JH",
+  "state_name": "Jahra"
+ }
+]
