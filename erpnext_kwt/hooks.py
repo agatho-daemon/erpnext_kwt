@@ -19,7 +19,7 @@ required_apps = ["frappe", "erpnext", "futilitap"]
 # fixtures
 fixtures = [
     {"doctype": "Address Template", "filters": [["name", "=", "Kuwait"]]},
-    {"dt": "Territory", "filters": [["parent_territory", "=", "Kuwait"]]},
+    # {"dt": "Territory", "filters": [["parent_territory", "=", "Kuwait"]]},
     {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
     {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 ]
