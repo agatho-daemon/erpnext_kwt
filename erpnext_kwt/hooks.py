@@ -107,8 +107,8 @@ app_include_js = "kwt_erpnext.bundle.js"
 # ------------
 
 # before_install = "erpnext_kwt.install.before_install"
-# before_install = "wsq.setup.install.before_install"
-# before_migrate = "wsq.setup.migrate.before_migrate"
+before_install = "erpnext_kwt.setup.install.before_install"
+# before_migrate = "erpnext_kwt.setup.migrate.before_migrate"
 
 
 # Uninstallation
