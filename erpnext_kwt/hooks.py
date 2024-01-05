@@ -13,15 +13,27 @@ source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 # ------------------
 
 # Required apps
-required_apps = ["erpnext"]
+required_apps = ["frappe", "erpnext"] #, "futilitap"]
 
 
 # fixtures
 fixtures = [
-    # "KWT Governorate",
-    # "KWT District",
-    # {"dt": "FUA State", "filters": [["country", "in", ["Kuwait"]]]},
-    # {"dt": "FUA City", "filters": [["country", "in", ["Kuwait"]]]},
+	{"dt": "Property Setter",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"FUA City-naming_series-options",
+					"FUA State-naming_series-options"
+                ],
+            ],
+        ],
+    },
+    {"dt": "Address Template", "filters": [["name", "=", "Kuwait"]]},
+    # {"dt": "Selling Settings", "filters": [["territory", "=", "Kuwait"]]},
+    {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
+    {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 ]
 
 
@@ -95,7 +107,9 @@ app_include_js = "kwt_erpnext.bundle.js"
 # ------------
 
 # before_install = "erpnext_kwt.install.before_install"
-# after_install = "erpnext_kwt.install.after_install"
+before_install = "erpnext_kwt.setup.install.before_install"
+# before_migrate = "erpnext_kwt.setup.migrate.before_migrate"
+
 
 # Uninstallation
 # ------------
