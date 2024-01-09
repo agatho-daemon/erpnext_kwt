@@ -30,8 +30,7 @@ fixtures = [
             ],
         ],
     },
-    {"dt": "Address Template", "filters": [["name", "=", "Kuwait"]]},
-    # {"dt": "Selling Settings", "filters": [["territory", "=", "Kuwait"]]},
+    {"dt": "Address Template", "filters": {"name": "Kuwait"}},
     {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
     {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 ]
