@@ -4,8 +4,8 @@
   "docstatus": 0,
   "doctype": "Address Template",
   "is_default": 1,
-  "modified": "2024-01-09 14:27:42.750915",
+  "modified": "2024-01-09 14:36:12.193137",
   "name": "Kuwait",
-  "template": "{{ address_line1 }}<br>\n{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{% set city = frappe.db.get_value('FUA City', city, ['city_name']) %}\n{{ city }}<br>\n{% if state %}\n{% set state = frappe.db.get_value('FUA State', state, ['state_name']) %}\n{{ state }}<br>{% endif -%}\n{% if pincode %}{{ pincode }}<br>{% endif -%}\n{{ country }}<br>\n<br>\n{% if phone %}{{ _(\"Phone\") }}: {{ phone }}<br>{% endif -%}\n{% if fax %}{{ _(\"Fax\") }}: {{ fax }}<br>{% endif -%}\n{% if email_id %}{{ _(\"Email\") }}: {{ email_id }}<br>{% endif -%}"
+  "template": "{{ address_line1 }}<br>\n{% if address_line2 %}{{ address_line2 }}<br>{% endif -%}\n{% set city = frappe.db.get_value('FUA City', city, ['city_name']) %}\nArea: {{ city }}<br>\n{% if state %}\n{% set state = frappe.db.get_value('FUA State', state, ['state_name']) %}\nGovernorate: {{ state }}<br>{% endif -%}\n{% if pincode %}PACI: {{ pincode }}<br>{% endif -%}\n{{ country }}<br>\n<br>\n{% if phone %}{{ _(\"Phone\") }}: {{ phone }}<br>{% endif -%}\n{% if fax %}{{ _(\"Fax\") }}: {{ fax }}<br>{% endif -%}\n{% if email_id %}{{ _(\"Email\") }}: {{ email_id }}<br>{% endif -%}"
  }
 ]
