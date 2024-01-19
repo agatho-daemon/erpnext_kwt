@@ -13,24 +13,11 @@ source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 # ------------------
 
 # Required apps
-required_apps = ["frappe", "erpnext"] #, "futilitap"]
+required_apps = ["frappe", "erpnext"]
 
 
 # fixtures
 fixtures = [
-	{"dt": "Property Setter",
-		"filters": [
-			[
-				"name",
-				"in",
-				[
-					"FUA City-naming_series-options",
-					"FUA State-naming_series-options"
-                ],
-            ],
-        ],
-    },
-    {"dt": "Address Template", "filters": {"name": "Kuwait"}},
     {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
     {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 ]
