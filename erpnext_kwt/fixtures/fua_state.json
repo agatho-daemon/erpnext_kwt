@@ -1,0 +1,56 @@
+[
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.518605",
+  "name": "Ahmadi",
+  "state_abbreviation": "AH",
+  "state_name": "Ahmadi"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.533105",
+  "name": "AlAsima",
+  "state_abbreviation": "AS",
+  "state_name": "AlAsima"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.537814",
+  "name": "Farwaniya",
+  "state_abbreviation": "FR",
+  "state_name": "Farwaniya"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.541763",
+  "name": "Hawalli",
+  "state_abbreviation": "HW",
+  "state_name": "Hawalli"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.545633",
+  "name": "Jahra",
+  "state_abbreviation": "JH",
+  "state_name": "Jahra"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.550764",
+  "name": "Mubarak AlKabeer",
+  "state_abbreviation": "MK",
+  "state_name": "Mubarak AlKabeer"
+ }
+]
