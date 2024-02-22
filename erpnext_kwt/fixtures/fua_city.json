@@ -1,5 +1,29 @@
 [
  {
+  "city_abbreviation": "ASM",
+  "city_name": "Ali Al-Salem",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.428736",
+  "name": "Ali Al-Salem",
+  "state": "Ahmadi",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "KHC",
+  "city_name": "Khiran City",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.606824",
+  "name": "Khiran City",
+  "state": "Ahmadi",
+  "territory": null
+ },
+ {
   "city_abbreviation": "ABD",
   "city_name": "Abdali",
   "country": "Kuwait",
@@ -129,18 +153,6 @@
   "modified": "2024-01-28 07:48:29.424590",
   "name": "Airport District",
   "state": "Farwaniya",
-  "territory": null
- },
- {
-  "city_abbreviation": "ASM",
-  "city_name": "Ali Al-Salim",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.428736",
-  "name": "Ali Al-Salim",
-  "state": "Ahmadi",
   "territory": null
  },
  {
@@ -644,18 +656,6 @@
   "doctype": "FUA City",
   "modified": "2024-01-28 07:48:29.602557",
   "name": "Khairan",
-  "state": "Ahmadi",
-  "territory": null
- },
- {
-  "city_abbreviation": "KHC",
-  "city_name": "Khairan City",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.606824",
-  "name": "Khairan City",
   "state": "Ahmadi",
   "territory": null
  },
