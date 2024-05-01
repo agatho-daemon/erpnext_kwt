@@ -30,6 +30,7 @@ fixtures = [
 			"Employee-custom_driver_license_expiry_date",
 			"Employee-custom_driver_license_issue_date",
 			"Employee-custom_driver_license_type",
+			"Employee-custom_moi",
 			"Employee-custom_moi_and_paci",
 			"Employee-custom_residence_paci",
 			"Employee-custom_unified_moi_number",
