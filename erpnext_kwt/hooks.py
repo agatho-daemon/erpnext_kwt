@@ -23,14 +23,16 @@ fixtures = [
 		{
 		"dt": "Custom Field",
 		"filters": [[ "name", "in", [
-			"Employee-custom_unified_moi_number",
-			"Employee-custom_driver_lincense_validity",
-			"Employee-custom_column_break_rl3ml",
-			"Employee-custom_civil_id_number",
 			"Employee-custom_civil_id_expiration",
-			"Employee-custom_residence_paci",
-			"Employee-custom_moi_and_paci",
+			"Employee-custom_civil_id_number",
+			"Employee-custom_column_break_rl3ml",
 			"Employee-custom_date_of_entry",
+			"Employee-custom_driver_license_expiry_date",
+			"Employee-custom_driver_license_issue_date",
+			"Employee-custom_driver_license_type",
+			"Employee-custom_moi_and_paci",
+			"Employee-custom_residence_paci",
+			"Employee-custom_unified_moi_number",
 			]]]
     },
 
