@@ -36,7 +36,18 @@ fixtures = [
 			"Employee-custom_unified_moi_number",
 			]]]
     },
-
+	    {
+        "dt": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Address-main-search_fields",
+                ]
+            ]
+        ]
+    },
 ]
 
 
