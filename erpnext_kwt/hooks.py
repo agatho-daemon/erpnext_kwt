@@ -23,6 +23,7 @@ fixtures = [
 		{
 		"dt": "Custom Field",
 		"filters": [[ "name", "in", [
+			"Customer-custom_arabic_name",
 			"Employee-custom_arabic_name",
 			"Employee-custom_civil_id_expiration",
 			"Employee-custom_civil_id_number",
@@ -35,6 +36,7 @@ fixtures = [
 			"Employee-custom_moi_and_paci",
 			"Employee-custom_residence_paci",
 			"Employee-custom_unified_moi_number",
+			"Supplier-custom_arabic_name",
 			]]]
     },
 	    {
