@@ -34,5 +34,88 @@ frappe.ui.form.on('Address', {
 
         // Update labels on form load
         update_labels(frm.doc.country);
-    }
+
+        // Trigger modal on focus of address_line1 or address_line2
+        ['address_line1', 'address_line2'].forEach(field => {
+            frm.fields_dict[field].$input.on('focus', function() {
+                // Only show modal if it is not already open
+                if(!cur_frm.address_modal_shown) {
+                    cur_frm.address_modal_shown = true;
+                    show_address_modal(frm);
+                }
+            });
+        });
+    },
 });
+
+// Function to show the address modal
+function show_address_modal(frm) {
+    const fields = [
+        {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block', 'reqd': 1},
+        {'fieldname': 'street', 'fieldtype': 'Data', 'label': 'Street [Format: 000 (Description)]'},
+        {'fieldname': 'lane', 'fieldtype': 'Data', 'label': 'Lane [Format: 00 (Description)]'},
+        {'fieldname': 'building', 'fieldtype': 'Data', 'label': 'Building [Format: 000 (Description)]', 'reqd': 1},
+        {'fieldname': 'floor', 'fieldtype': 'Data', 'label': 'Floor'},
+        {'fieldname': 'unit', 'fieldtype': 'Data', 'label': 'Unit'},
+    ];
+
+    const d = new frappe.ui.Dialog({
+        title: __('Address Details'),
+        fields: fields,
+        primary_action_label: __('Submit'),
+        primary_action(values) {
+            // Format and construct address lines with zero padding
+            const block = values.block.padStart(2, '0');
+            const street = format_field_with_description(values.street, 3);
+            const lane = format_field_with_description(values.lane, 2);
+            const building = format_field_with_description(values.building, 3);
+            const floor = format_floor(values.floor);
+            const unit = values.unit || '';
+
+            // Construct address lines from the provided values
+            frm.set_value('address_line1', `Blk: ${block}, St: ${street}${lane ? ', Ln: ' + lane : ''}`);
+            frm.set_value('address_line2', `Bldg: ${building}${floor ? ', Fl: ' + floor : ''}${unit ? ', Unit: ' + unit : ''}`);
+            d.hide()
+        }
+    });
+
+    d.show();
+    d.onhide = () => {
+        cur_frm.address_modal_shown = false;
+    };
+}
+
+// Function to format fields that might include a numeric prefix and a descriptive suffix, or just a name
+function format_field_with_description(input, numLength) {
+    if (!input) return '';
+
+    // Try to split the input into numeric and descriptive components
+    let matches = input.match(/^(\d*)\s*(.*)/);
+    let number = matches[1];
+    let description = matches[2].trim();
+
+    // If there's a number, pad it and format with description if available
+    if (number) {
+        number = number.padStart(numLength, '0');
+        if (description) {
+            // If description exists, ensure it's properly enclosed in parentheses
+            if (!description.startsWith('(') || !description.endsWith(')')) {
+                description = `(${description})`;
+            }
+            return `${number} ${description}`;
+        }
+        return number; // Return just the number if no description
+    } else {
+        // If there's no number, return the plain description (which is the full input here)
+        return description; // Return without parentheses as it's purely descriptive
+    }
+}
+
+// format floor number/description
+function format_floor(input) {
+    if (!input) return '';
+    if (/^\d+$/.test(input)) {
+        return input.padStart(2, '0');
+    }
+    return input;
+}
