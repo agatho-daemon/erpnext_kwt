@@ -24,6 +24,7 @@ fixtures = [
 		"dt": "Custom Field",
 		"filters": [[ "name", "in", [
 			"Address-custom_address_instructions",
+			"Contact Phone-custom_description",
 			"Customer-custom_arabic_name",
 			"Employee-custom_arabic_name",
 			"Employee-custom_civil_id_expiration",
@@ -48,6 +49,8 @@ fixtures = [
                 "in",
                 [
                     "Address-main-search_fields",
+					"Contact Phone-main-field_order",
+					"Employee-main-field_order",
                 ]
             ]
         ]

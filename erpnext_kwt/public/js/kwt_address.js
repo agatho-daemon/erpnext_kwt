@@ -54,7 +54,7 @@ function show_address_modal(frm) {
         {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block', 'reqd': 1},
         {'fieldname': 'street', 'fieldtype': 'Data', 'label': 'Street [Format: 000 (Description)]'},
         {'fieldname': 'lane', 'fieldtype': 'Data', 'label': 'Lane [Format: 00 (Description)]'},
-        {'fieldname': 'building', 'fieldtype': 'Data', 'label': 'Building [Format: 000 (Description)]', 'reqd': 1},
+        {'fieldname': 'building', 'fieldtype': 'Data', 'label': 'Building [Format: 000 (Description)]'},
         {'fieldname': 'floor', 'fieldtype': 'Data', 'label': 'Floor'},
         {'fieldname': 'unit', 'fieldtype': 'Data', 'label': 'Unit'},
     ];
@@ -73,8 +73,8 @@ function show_address_modal(frm) {
             const unit = values.unit || '';
 
             // Construct address lines from the provided values
-            frm.set_value('address_line1', `Blk: ${block}, St: ${street}${lane ? ', Ln: ' + lane : ''}`);
-            frm.set_value('address_line2', `Bldg: ${building}${floor ? ', Fl: ' + floor : ''}${unit ? ', Unit: ' + unit : ''}`);
+            frm.set_value('address_line1', `Block: ${block} • Street: ${street}${lane ? ' • Lane: ' + lane : ''}`);
+            frm.set_value('address_line2', `${building ? 'Bldg: ' + building : ''}${floor ? ' • Floor: ' + floor : ''}${unit ? ' • Unit: ' + unit : ''}`);
             d.hide()
         }
     });
