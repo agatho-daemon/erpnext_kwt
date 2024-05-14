@@ -23,6 +23,10 @@ fixtures = [
 		{
 		"dt": "Custom Field",
 		"filters": [[ "name", "in", [
+			"Address-custom_address_instructions",
+			"Contact Phone-custom_description",
+			"Customer-custom_arabic_name",
+			"Employee-custom_arabic_name",
 			"Employee-custom_civil_id_expiration",
 			"Employee-custom_civil_id_number",
 			"Employee-custom_column_break_rl3ml",
@@ -34,9 +38,24 @@ fixtures = [
 			"Employee-custom_moi_and_paci",
 			"Employee-custom_residence_paci",
 			"Employee-custom_unified_moi_number",
+			"Shareholder-custom_arabic_name",
+			"Supplier-custom_arabic_name",
 			]]]
     },
-
+	    {
+        "dt": "Property Setter",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Address-main-search_fields",
+					"Contact Phone-main-field_order",
+					"Employee-main-field_order",
+                ]
+            ]
+        ]
+    },
 ]
 
 

@@ -252,18 +252,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "BYN",
-  "city_name": "Bayan",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.463288",
-  "name": "Bayan",
-  "state": "Hawalli",
-  "territory": null
- },
- {
   "city_abbreviation": "BDA",
   "city_name": "Bida'a",
   "country": "Kuwait",
@@ -908,18 +896,6 @@
   "doctype": "FUA City",
   "modified": "2024-01-28 07:48:29.703435",
   "name": "MutlaaN08",
-  "state": "Jahra",
-  "territory": null
- },
- {
-  "city_abbreviation": "M09",
-  "city_name": "MutlaaN09",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.707612",
-  "name": "MutlaaN09",
   "state": "Jahra",
   "territory": null
  },
@@ -1689,6 +1665,30 @@
   "modified": "2024-01-28 07:48:30.087572",
   "name": "Zoor",
   "state": "Ahmadi",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "M09",
+  "city_name": "MutlaaN09",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.707612",
+  "name": "MutlaaN09",
+  "state": "Jahra",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "BYN",
+  "city_name": "Bayan",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.463288",
+  "name": "Bayan",
+  "state": "Hawalli",
   "territory": null
  }
 ]
