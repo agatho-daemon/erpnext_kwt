@@ -38,6 +38,7 @@ fixtures = [
 			"Employee-custom_moi_and_paci",
 			"Employee-custom_residence_paci",
 			"Employee-custom_unified_moi_number",
+			"Shareholder-custom_arabic_name",
 			"Supplier-custom_arabic_name",
 			]]]
     },
