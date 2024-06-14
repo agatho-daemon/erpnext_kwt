@@ -1440,14 +1440,14 @@
   "territory": null
  },
  {
-  "city_abbreviation": "SWI",
-  "city_name": "Shuwaikh Industrial",
+  "city_abbreviation": "SW2",
+  "city_name": "Shuwaikh Industrial-2",
   "country": "Kuwait",
   "county": null,
   "docstatus": 0,
   "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.969427",
-  "name": "Shuwaikh Industrial",
+  "modified": "2024-06-14 08:48:36.388008",
+  "name": "Shuwaikh Industrial-2",
   "state": "AlAsima",
   "territory": null
  },
@@ -1690,5 +1690,29 @@
   "name": "Bayan",
   "state": "Hawalli",
   "territory": null
+ },
+ {
+  "city_abbreviation": "SW1",
+  "city_name": "Shuwaikh Industrial-1",
+  "country": "Kuwait",
+  "county": "",
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-06-14 08:50:31.598674",
+  "name": "Shuwaikh Industrial-1",
+  "state": "AlAsima",
+  "territory": "3rd Ring Road"
+ },
+ {
+  "city_abbreviation": "SW3",
+  "city_name": "Shuwaikh Industrial-3",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-06-14 08:55:45.299289",
+  "name": "Shuwaikh Industrial-3",
+  "state": "AlAsima",
+  "territory": "3rd Ring Road"
  }
 ]
