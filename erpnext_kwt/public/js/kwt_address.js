@@ -46,6 +46,26 @@ frappe.ui.form.on('Address', {
             });
         });
     },
+    onload_post_render: function(frm) {
+        if (!frm.doc.address_title && frm.doc.links && frm.doc.links.length > 0) {
+            frm.doc.links.forEach(function(row) {
+                let linkName = row.link_name;
+                let linkDoctype = row.link_doctype;
+
+                if (linkDoctype === 'Customer' || linkDoctype === 'Supplier') {
+                    let fieldname = (linkDoctype === 'Customer') ? 'customer_name' : 'supplier_name';
+
+                    frappe.db.get_value(linkDoctype, linkName, fieldname)
+                        .then(response => {
+                            if (response.message) {
+                                let addressTitle = response.message[fieldname];
+                                frm.set_value('address_title', addressTitle);
+                            }
+                        });
+                }
+            });
+        }
+    },
 });
 
 // Function to show the address modal
