@@ -20,7 +20,7 @@ required_apps = ["frappe", "erpnext"]
 fixtures = [
     {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
     {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
-		{
+	{
 		"dt": "Custom Field",
 		"filters": [[ "name", "in", [
 			"Address-custom_address_instructions",
