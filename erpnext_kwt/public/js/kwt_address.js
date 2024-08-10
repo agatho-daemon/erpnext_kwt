@@ -71,7 +71,7 @@ frappe.ui.form.on('Address', {
 // Function to show the address modal
 function show_address_modal(frm) {
     const fields = [
-        {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block', 'reqd': 1},
+        {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block'},
         {'fieldname': 'street', 'fieldtype': 'Data', 'label': 'Street [Format: 000 (Description)]'},
         {'fieldname': 'lane', 'fieldtype': 'Data', 'label': 'Lane [Format: 00 (Description)]'},
         {'fieldname': 'building', 'fieldtype': 'Data', 'label': 'Building [Format: 000 (Description)]'},
@@ -85,16 +85,29 @@ function show_address_modal(frm) {
         primary_action_label: __('Submit'),
         primary_action(values) {
             // Format and construct address lines with zero padding
-            const block = values.block.padStart(2, '0');
-            const street = format_field_with_description(values.street, 3);
-            const lane = format_field_with_description(values.lane, 2);
-            const building = format_field_with_description(values.building, 3);
+            const block = values.block ? values.block.padStart(2, '0') : '';
+            const street = values.street ? format_field_with_description(values.street, 3) : '';
+            const lane = values.lane ? format_field_with_description(values.lane, 2) : '';
+            const building = values.building ? format_field_with_description(values.building, 3) : '';
             const floor = format_floor(values.floor);
             const unit = values.unit || '';
 
-            // Construct address lines from the provided values
-            frm.set_value('address_line1', `Block: ${block} • Street: ${street}${lane ? ' • Lane: ' + lane : ''}`);
-            frm.set_value('address_line2', `${building ? 'Bldg: ' + building : ''}${floor ? ' • Floor: ' + floor : ''}${unit ? ' • Unit: ' + unit : ''}`);
+            // Construct address_line1 and address_line2 without adding prefixes if the fields are empty
+            const address_line1 = [
+                block ? `Block: ${block}` : '',
+                street ? `Street: ${street}` : '',
+                lane ? `Lane: ${lane}` : ''
+            ].filter(Boolean).join(' • ') || '␀';
+
+            const address_line2 = [
+                building ? `Bldg: ${building}` : '',
+                floor ? `Floor: ${floor}` : '',
+                unit ? `Unit: ${unit}` : ''
+            ].filter(Boolean).join(' • ');
+
+            frm.set_value('address_line1', address_line1);
+            frm.set_value('address_line2', address_line2);
+
             d.hide()
         }
     });
