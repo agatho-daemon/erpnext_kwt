@@ -71,7 +71,7 @@ frappe.ui.form.on('Address', {
 // Function to show the address modal
 function show_address_modal(frm) {
     const fields = [
-        {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block', 'reqd': 1},
+        {'fieldname': 'block', 'fieldtype': 'Data', 'label': 'Block'},
         {'fieldname': 'street', 'fieldtype': 'Data', 'label': 'Street [Format: 000 (Description)]'},
         {'fieldname': 'lane', 'fieldtype': 'Data', 'label': 'Lane [Format: 00 (Description)]'},
         {'fieldname': 'building', 'fieldtype': 'Data', 'label': 'Building [Format: 000 (Description)]'},
@@ -105,9 +105,9 @@ function show_address_modal(frm) {
                 unit ? `Unit: ${unit}` : ''
             ].filter(Boolean).join(' • ');
 
-            // Construct address lines from the provided values
-            frm.set_value('address_line1', `Block: ${block} • Street: ${street}${lane ? ' • Lane: ' + lane : ''}`);
-            frm.set_value('address_line2', `${building ? 'Bldg: ' + building : ''}${floor ? ' • Floor: ' + floor : ''}${unit ? ' • Unit: ' + unit : ''}`);
+            frm.set_value('address_line1', address_line1);
+            frm.set_value('address_line2', address_line2);
+
             d.hide()
         }
     });
