@@ -16,13 +16,13 @@ frappe.ui.form.on('Address', {
                 frm.set_df_property('city', 'label', __('District'));
                 frm.set_df_property('county', 'hidden', 1);
                 frm.set_df_property('state', 'label', __('Governorate'));
-                frm.set_df_property('pincode', 'label', __('PACI'));
+                // frm.set_df_property('pincode', 'label', __('PACI'));
             } else {
                 // Reset to default labels
                 frm.set_df_property('city', 'label', __('City/Town'));
                 frm.set_df_property('county', 'hidden', 0);
                 frm.set_df_property('state', 'label', __('State/Province'));
-                frm.set_df_property('pincode', 'label', __('Postal Code'));
+                // frm.set_df_property('pincode', 'label', __('Postal Code'));
             }
         }
 
