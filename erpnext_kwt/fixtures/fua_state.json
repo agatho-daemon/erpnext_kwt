@@ -12,15 +12,6 @@
   "country": "Kuwait",
   "docstatus": 0,
   "doctype": "FUA State",
-  "modified": "2024-01-19 08:40:55.533105",
-  "name": "AlAsima",
-  "state_abbreviation": "AS",
-  "state_name": "AlAsima"
- },
- {
-  "country": "Kuwait",
-  "docstatus": 0,
-  "doctype": "FUA State",
   "modified": "2024-01-19 08:40:55.537814",
   "name": "Farwaniya",
   "state_abbreviation": "FR",
@@ -52,5 +43,14 @@
   "name": "Hawalli",
   "state_abbreviation": "HW",
   "state_name": "Hawalli"
+ },
+ {
+  "country": "Kuwait",
+  "docstatus": 0,
+  "doctype": "FUA State",
+  "modified": "2024-01-19 08:40:55.533105",
+  "name": "AlAsima",
+  "state_abbreviation": "AS",
+  "state_name": "AlAsima"
  }
 ]

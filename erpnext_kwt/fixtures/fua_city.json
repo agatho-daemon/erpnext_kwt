@@ -492,18 +492,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "HWL",
-  "city_name": "Hawalli",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.550824",
-  "name": "Hawalli",
-  "state": "Hawalli",
-  "territory": null
- },
- {
   "city_abbreviation": "HIT",
   "city_name": "Hitteen",
   "country": "Kuwait",
@@ -1440,18 +1428,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "SW2",
-  "city_name": "Shuwaikh Industrial-2",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-06-14 08:48:36.388008",
-  "name": "Shuwaikh Industrial-2",
-  "state": "AlAsima",
-  "territory": null
- },
- {
   "city_abbreviation": "SWP",
   "city_name": "Shuwaikh Port",
   "country": "Kuwait",
@@ -1714,5 +1690,29 @@
   "name": "Shuwaikh Industrial-3",
   "state": "AlAsima",
   "territory": "3rd Ring Road"
+ },
+ {
+  "city_abbreviation": "HWL",
+  "city_name": "Hawalli",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.550824",
+  "name": "Hawalli",
+  "state": "Hawalli",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "SW2",
+  "city_name": "Shuwaikh Industrial-2",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-06-14 08:48:36.388008",
+  "name": "Shuwaikh Industrial-2",
+  "state": "AlAsima",
+  "territory": null
  }
 ]
