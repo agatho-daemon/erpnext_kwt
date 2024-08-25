@@ -26,6 +26,7 @@ fixtures = [
 			"Address-custom_address_instructions",
 			"Contact Phone-custom_description",
 			"Customer-custom_arabic_name",
+			"Customer-custom_paci",
 			"Employee-custom_arabic_name",
 			"Employee-custom_civil_id_expiration",
 			"Employee-custom_civil_id_number",
@@ -51,6 +52,7 @@ fixtures = [
                 [
                     "Address-main-search_fields",
 					"Contact Phone-main-field_order",
+					"Customer-main-search_fields",
 					"Employee-main-field_order",
                 ]
             ]
