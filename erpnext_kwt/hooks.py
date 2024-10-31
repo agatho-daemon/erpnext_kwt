@@ -18,46 +18,53 @@ required_apps = ["frappe", "erpnext"]
 
 # fixtures
 fixtures = [
-    {"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
-    {"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
+	{"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
+	{"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 	{
 		"dt": "Custom Field",
-		"filters": [[ "name", "in", [
-			"Address-custom_address_instructions",
-			"Contact Phone-custom_description",
-			"Customer-custom_arabic_name",
-			"Customer-custom_paci",
-			"Employee-custom_arabic_name",
-			"Employee-custom_civil_id_expiration",
-			"Employee-custom_civil_id_number",
-			"Employee-custom_column_break_rl3ml",
-			"Employee-custom_date_of_entry",
-			"Employee-custom_driver_license_expiry_date",
-			"Employee-custom_driver_license_issue_date",
-			"Employee-custom_driver_license_type",
-			"Employee-custom_moi",
-			"Employee-custom_moi_and_paci",
-			"Employee-custom_residence_paci",
-			"Employee-custom_unified_moi_number",
-			"Shareholder-custom_arabic_name",
-			"Supplier-custom_arabic_name",
-			]]]
-    },
-	    {
-        "dt": "Property Setter",
-        "filters": [
-            [
-                "name",
-                "in",
-                [
-                    "Address-main-search_fields",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Address-custom_address_instructions",
+					"Address-address_line2-in_preview",
+					"Contact Phone-custom_description",
+					"Customer-custom_arabic_name",
+					"Customer-custom_paci",
+					"Employee-custom_arabic_name",
+					"Employee-custom_civil_id_expiration",
+					"Employee-custom_civil_id_number",
+					"Employee-custom_column_break_rl3ml",
+					"Employee-custom_date_of_entry",
+					"Employee-custom_driver_license_expiry_date",
+					"Employee-custom_driver_license_issue_date",
+					"Employee-custom_driver_license_type",
+					"Employee-custom_moi",
+					"Employee-custom_moi_and_paci",
+					"Employee-custom_residence_paci",
+					"Employee-custom_unified_moi_number",
+					"Shareholder-custom_arabic_name",
+					"Supplier-custom_arabic_name",
+				],
+			]
+		],
+	},
+	{
+		"dt": "Property Setter",
+		"filters": [
+			[
+				"name",
+				"in",
+				[
+					"Address-main-search_fields",
 					"Contact Phone-main-field_order",
 					"Customer-main-search_fields",
 					"Employee-main-field_order",
-                ]
-            ]
-        ]
-    },
+				],
+			]
+		],
+	},
 ]
 
 

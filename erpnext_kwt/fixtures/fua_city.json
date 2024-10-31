@@ -1,5 +1,17 @@
 [
  {
+  "city_abbreviation": "ARG",
+  "city_name": "Ardiya Government",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-09-07 12:22:22.609617",
+  "name": "Ardiya Government",
+  "state": "Farwaniya",
+  "territory": "5th Ring Road"
+ },
+ {
   "city_abbreviation": "ASM",
   "city_name": "Ali Al-Salem",
   "country": "Kuwait",
@@ -105,18 +117,6 @@
   "modified": "2024-01-28 07:48:29.408854",
   "name": "Abu Hulaifa",
   "state": "Ahmadi",
-  "territory": null
- },
- {
-  "city_abbreviation": "ADA",
-  "city_name": "Adan",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.413247",
-  "name": "Adan",
-  "state": "Mubarak AlKabeer",
   "territory": null
  },
  {
@@ -264,18 +264,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "BNG",
-  "city_name": "Bnaid Al-Qar",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.471012",
-  "name": "Bnaid Al-Qar",
-  "state": "AlAsima",
-  "territory": null
- },
- {
   "city_abbreviation": "BDR",
   "city_name": "Bnaider",
   "country": "Kuwait",
@@ -357,18 +345,6 @@
   "modified": "2024-01-28 07:48:29.499361",
   "name": "Doha",
   "state": "AlAsima",
-  "territory": null
- },
- {
-  "city_abbreviation": "EGA",
-  "city_name": "Egaila",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.502903",
-  "name": "Egaila",
-  "state": "Ahmadi",
   "territory": null
  },
  {
@@ -1092,18 +1068,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "QRT",
-  "city_name": "Qurtuba",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.791468",
-  "name": "Qurtuba",
-  "state": "AlAsima",
-  "territory": null
- },
- {
   "city_abbreviation": "QUS",
   "city_name": "Qusour",
   "country": "Kuwait",
@@ -1713,6 +1677,54 @@
   "modified": "2024-06-14 08:48:36.388008",
   "name": "Shuwaikh Industrial-2",
   "state": "AlAsima",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "ADA",
+  "city_name": "Adan",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.413247",
+  "name": "Adan",
+  "state": "Mubarak AlKabeer",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "BNG",
+  "city_name": "Bnaid Al-Qar",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.471012",
+  "name": "Bnaid Al-Qar",
+  "state": "AlAsima",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "QRT",
+  "city_name": "Qortuba",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.791468",
+  "name": "Qortuba",
+  "state": "AlAsima",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "EGA",
+  "city_name": "Egaila",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.502903",
+  "name": "Egaila",
+  "state": "Ahmadi",
   "territory": null
  }
 ]
