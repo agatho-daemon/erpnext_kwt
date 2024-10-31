@@ -348,18 +348,6 @@
   "territory": null
  },
  {
-  "city_abbreviation": "EGA",
-  "city_name": "Egaila",
-  "country": "Kuwait",
-  "county": null,
-  "docstatus": 0,
-  "doctype": "FUA City",
-  "modified": "2024-01-28 07:48:29.502903",
-  "name": "Egaila",
-  "state": "Ahmadi",
-  "territory": null
- },
- {
   "city_abbreviation": "FAA",
   "city_name": "Fahad Al-Ahmad",
   "country": "Kuwait",
@@ -1725,6 +1713,18 @@
   "modified": "2024-01-28 07:48:29.791468",
   "name": "Qortuba",
   "state": "AlAsima",
+  "territory": null
+ },
+ {
+  "city_abbreviation": "EGA",
+  "city_name": "Egaila",
+  "country": "Kuwait",
+  "county": null,
+  "docstatus": 0,
+  "doctype": "FUA City",
+  "modified": "2024-01-28 07:48:29.502903",
+  "name": "Egaila",
+  "state": "Ahmadi",
   "territory": null
  }
 ]
