@@ -4,10 +4,16 @@ from pathlib import Path
 from unittest.mock import patch
 
 FIXTURES = Path(__file__).resolve().parents[1] / "fixtures"
+SEED_DATA = Path(__file__).resolve().parents[1] / "seed_data"
 
 
 def load_fixture(filename):
-	return json.loads((FIXTURES / filename).read_text(encoding="utf-8"))
+	path = (
+		SEED_DATA / filename
+		if filename in {"fua_city.json", "fua_state.json", "territory.json"}
+		else FIXTURES / filename
+	)
+	return json.loads(path.read_text(encoding="utf-8"))
 
 
 class TestV16Metadata(unittest.TestCase):
@@ -65,6 +71,32 @@ class TestV16Metadata(unittest.TestCase):
 		handler = "erpnext_kwt.party.sync_primary_contact_middle_name"
 		self.assertEqual(hooks.doc_events["Customer"]["on_update"], handler)
 		self.assertEqual(hooks.doc_events["Supplier"]["on_update"], handler)
+
+	def test_territory_root_is_bootstrapped_on_a_fresh_site(self):
+		from erpnext_kwt.setup.install import ALL_TERRITORIES, ensure_territory_root
+
+		root_doc = unittest.mock.MagicMock()
+		database = unittest.mock.MagicMock()
+		database.get_value.return_value = ALL_TERRITORIES
+		with (
+			patch("erpnext_kwt.setup.install.get_root_of", return_value=None),
+			patch("erpnext_kwt.setup.install.frappe.get_doc", return_value=root_doc) as get_doc,
+			patch("erpnext_kwt.setup.install.frappe.db", database),
+		):
+			root = ensure_territory_root()
+
+		self.assertEqual(root, ALL_TERRITORIES)
+		get_doc.assert_called_once_with(
+			{
+				"doctype": "Territory",
+				"name": ALL_TERRITORIES,
+				"territory_name": ALL_TERRITORIES,
+				"parent_territory": "",
+				"is_group": 1,
+			}
+		)
+		self.assertTrue(root_doc.flags.ignore_mandatory)
+		root_doc.insert.assert_called_once_with(ignore_permissions=True, ignore_if_duplicate=True)
 
 	def test_customer_middle_name_is_stored_on_primary_contact(self):
 		from erpnext_kwt.party import sync_primary_contact_middle_name

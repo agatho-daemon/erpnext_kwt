@@ -1473,10 +1473,21 @@
   "modified": "2024-01-28 07:48:30.026253",
   "name": "Sulaibiya",
   "state": "Jahra",
-  "territory": null
+ "territory": null
+},
+{
+	"city_abbreviation": "SI1",
+	"city_name": "Sulaibiya Industrial 1",
+	"country": "Kuwait",
+	"county": null,
+	"docstatus": 0,
+	"doctype": "FUA City",
+	"name": "Sulaibiya Industrial 1",
+	"state": "Jahra",
+	"territory": "5th Ring Road"
  },
  {
-  "city_abbreviation": "SLA",
+ "city_abbreviation": "SLA",
   "city_name": "Sulaibiya Agricultural",
   "country": "Kuwait",
   "county": null,

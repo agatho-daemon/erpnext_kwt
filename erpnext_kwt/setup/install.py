@@ -7,6 +7,7 @@ from frappe.model.rename_doc import rename_doc as rename_document
 from frappe.utils.nestedset import get_root_of
 
 KUWAIT = "Kuwait"
+ALL_TERRITORIES = "All Territories"
 SEED_FILES = {
 	"territories": "territory.json",
 	"states": "fua_state.json",
@@ -16,7 +17,7 @@ SEED_FILES = {
 
 def load_seed_records(seed_name):
 	filename = SEED_FILES[seed_name]
-	path = Path(frappe.get_app_path("erpnext_kwt", "fixtures", filename))
+	path = Path(frappe.get_app_path("erpnext_kwt", "seed_data", filename))
 	return json.loads(path.read_text(encoding="utf-8"))
 
 
@@ -31,9 +32,7 @@ def sync_kuwait_seed_data():
 def ensure_kuwait_territory():
 	name = frappe.db.get_value("Territory", {"territory_name": KUWAIT}, "name")
 	if not name:
-		root = get_root_of("Territory")
-		if not root:
-			frappe.throw(_("Complete the ERPNext setup wizard before installing ERPNext KWT."))
+		root = ensure_territory_root()
 		doc = frappe.get_doc(
 			{
 				"doctype": "Territory",
@@ -49,6 +48,26 @@ def ensure_kuwait_territory():
 		doc.is_group = 1
 		doc.save(ignore_permissions=True)
 	return doc.name
+
+
+def ensure_territory_root():
+	"""Return the Territory root, creating ERPNext's standard root on a fresh site."""
+	root = get_root_of("Territory")
+	if root:
+		return root
+
+	doc = frappe.get_doc(
+		{
+			"doctype": "Territory",
+			"name": ALL_TERRITORIES,
+			"territory_name": ALL_TERRITORIES,
+			"parent_territory": "",
+			"is_group": 1,
+		}
+	)
+	doc.flags.ignore_mandatory = True
+	doc.insert(ignore_permissions=True, ignore_if_duplicate=True)
+	return frappe.db.get_value("Territory", {"territory_name": ALL_TERRITORIES}, "name")
 
 
 def seed_territories(kuwait_territory):
