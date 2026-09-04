@@ -1,0 +1,4 @@
+[pre_model_sync]
+erpnext_kwt.patches.v16_0.normalize_employee_customizations
+
+[post_model_sync]

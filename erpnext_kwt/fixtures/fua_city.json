@@ -1705,13 +1705,16 @@
  },
  {
   "city_abbreviation": "QRT",
-  "city_name": "Qortuba",
+  "city_name": "Qurtuba",
   "country": "Kuwait",
   "county": null,
   "docstatus": 0,
   "doctype": "FUA City",
   "modified": "2024-01-28 07:48:29.791468",
-  "name": "Qortuba",
+  "name": "Qurtuba",
+  "previous_names": [
+   "Qortuba"
+  ],
   "state": "AlAsima",
   "territory": null
  },

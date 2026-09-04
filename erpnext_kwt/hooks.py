@@ -13,13 +13,11 @@ source_link = "https://github.com/agatho-daemon/erpnext_kwt"
 # ------------------
 
 # Required apps
-required_apps = ["frappe", "erpnext"]
+required_apps = ["frappe", "erpnext", "hrms", "futilitap"]
 
 
 # fixtures
 fixtures = [
-	{"dt": "FUA State", "filters": [["country", "=", "Kuwait"]]},
-	{"dt": "FUA City", "filters": [["country", "=", "Kuwait"]]},
 	{
 		"dt": "Custom Field",
 		"filters": [
@@ -28,7 +26,6 @@ fixtures = [
 				"in",
 				[
 					"Address-custom_address_instructions",
-					"Address-address_line2-in_preview",
 					"Contact Phone-custom_description",
 					"Customer-custom_arabic_name",
 					"Customer-custom_paci",
@@ -60,7 +57,6 @@ fixtures = [
 					"Address-main-search_fields",
 					"Contact Phone-main-field_order",
 					"Customer-main-search_fields",
-					"Employee-main-field_order",
 				],
 			]
 		],
@@ -73,6 +69,11 @@ fixtures = [
 # app_include_js = "/assets/erpnext_kwt/js/erpnext_kwt.js"
 # TODO: Uncomment After Work Mods Verification
 app_include_js = "kwt_erpnext.bundle.js"
+
+doc_events = {
+	"Customer": {"on_update": "erpnext_kwt.party.sync_primary_contact_middle_name"},
+	"Supplier": {"on_update": "erpnext_kwt.party.sync_primary_contact_middle_name"},
+}
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erpnext_kwt/css/erpnext_kwt.css"
@@ -138,7 +139,8 @@ app_include_js = "kwt_erpnext.bundle.js"
 # ------------
 
 # before_install = "erpnext_kwt.install.before_install"
-before_install = "erpnext_kwt.setup.install.before_install"
+after_install = "erpnext_kwt.setup.install.sync_kuwait_seed_data"
+after_migrate = "erpnext_kwt.setup.install.sync_kuwait_seed_data"
 # before_migrate = "erpnext_kwt.setup.migrate.before_migrate"
 
 
