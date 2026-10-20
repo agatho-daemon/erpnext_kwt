@@ -139,7 +139,7 @@ doc_events = {
 # ------------
 
 # before_install = "erpnext_kwt.install.before_install"
-after_install = "erpnext_kwt.setup.install.sync_kuwait_seed_data"
+after_install = "erpnext_kwt.setup.install.after_install"
 after_migrate = "erpnext_kwt.setup.install.sync_kuwait_seed_data"
 # before_migrate = "erpnext_kwt.setup.migrate.before_migrate"
 

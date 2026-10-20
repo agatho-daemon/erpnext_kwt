@@ -29,6 +29,32 @@ fields remain on the full Employee form. Enabling Employee Quick Entry would be
 a separate workflow change because Employee does not natively create a linked
 Address from Quick Entry.
 
+## Installation settings
+
+Installation applies these native settings across the site:
+
+- System Settings: Currency Precision **3** and Float Precision **3**.
+- KWD Currency: fraction **Fils**, **1,000** fraction units per dinar, and smallest
+  currency fraction **0.005** for native rounding to the nearest five fils.
+- Stock Settings: **Clean Description HTML** disabled to preserve bilingual
+  description direction and alignment. Native HTML sanitization remains active.
+
+The existing rounding method, other currencies, account configuration and HVAC
+pricing policies are unchanged. Currency Precision and Float Precision are global
+defaults; explicit field precision still takes precedence. This setup does not
+recalculate or save existing transactions.
+
+Migrations synchronize geographic reference data but do not reapply these settings.
+Administrator changes made after installation are preserved. To adopt the defaults
+on an existing site, review the site-wide effects and run explicitly:
+
+```sh
+bench --site SITE execute erpnext_kwt.setup.settings.apply_kuwait_settings
+```
+
+This command deliberately reapplies the listed policy. Repeating it with matching
+values does not save those settings again.
+
 ## License
 
 CC0 1.0 Universal

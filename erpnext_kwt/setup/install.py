@@ -15,6 +15,13 @@ SEED_FILES = {
 }
 
 
+def after_install():
+	from erpnext_kwt.setup.settings import apply_kuwait_settings
+
+	sync_kuwait_seed_data()
+	apply_kuwait_settings()
+
+
 def load_seed_records(seed_name):
 	filename = SEED_FILES[seed_name]
 	path = Path(frappe.get_app_path("erpnext_kwt", "seed_data", filename))
